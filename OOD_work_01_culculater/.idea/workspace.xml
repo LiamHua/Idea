@@ -15,6 +15,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1Ry2mZEe2mAk6f8Itkdcyd1SHl8" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -30,7 +33,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -91,7 +94,7 @@
       <workItem from="1570625178906" duration="16314000" />
       <workItem from="1571146207993" duration="9266000" />
       <workItem from="1571190698156" duration="8316000" />
-      <workItem from="1571314214260" duration="6676000" />
+      <workItem from="1571314214260" duration="7718000" />
     </task>
     <servers />
   </component>
