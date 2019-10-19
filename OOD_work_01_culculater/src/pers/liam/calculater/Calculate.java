@@ -9,7 +9,6 @@ public class Calculate {
         while (iterator.hasNext()){
             Object obj = iterator.next();
             if (obj.toString().equals("(")){
-                
             }
         }
 
