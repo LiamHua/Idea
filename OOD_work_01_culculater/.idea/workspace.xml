@@ -20,6 +20,7 @@
   </component>
   <component name="ProjectId" id="1Ry2mZEe2mAk6f8Itkdcyd1SHl8" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last.edited.regexp" value="Sample Text" />
