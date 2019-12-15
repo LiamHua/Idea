@@ -1,9 +1,12 @@
 package team.bug.chat.model;
 
-import team.bug.chat.web.MyServiceImplService;
-import team.bug.chat.web.MyServiceImplService_Service;
+import team.bug.chat.dao.MyServiceImplService;
+import team.bug.chat.dao.MyServiceImplService_Service;
 
-public class RefreshIP {
+/**
+ * @author liam
+ */
+public class refreshIP {
     public static String refreshIP(String username){
         MyServiceImplService service = new MyServiceImplService_Service().getMyServiceImplServicePort();
         return service.getIP(username);

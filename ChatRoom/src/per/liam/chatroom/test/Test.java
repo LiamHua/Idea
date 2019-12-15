@@ -1,9 +1,7 @@
-package pers.liam.ChatRoom.Test;
+package per.liam.chatroom.test;
 
-import team.bug.chat.web.MyServiceImplService;
-import team.bug.chat.web.MyServiceImplService_Service;
-
-import java.util.List;
+import team.bug.chat.dao.MyServiceImplService;
+import team.bug.chat.dao.MyServiceImplService_Service;
 
 public class Test {
     public static void main(String[] args) {

@@ -1,5 +1,5 @@
 
-package team.bug.chat.web;
+package team.bug.chat.dao;
 
 import java.util.List;
 import javax.jws.WebMethod;
@@ -35,8 +35,8 @@ public interface MyServiceImplService {
      */
     @WebMethod
     @WebResult(targetNamespace = "")
-    @RequestWrapper(localName = "addUser", targetNamespace = "pers.liam.countManager.MyService", className = "team.bug.chat.web.AddUser")
-    @ResponseWrapper(localName = "addUserResponse", targetNamespace = "pers.liam.countManager.MyService", className = "team.bug.chat.web.AddUserResponse")
+    @RequestWrapper(localName = "addUser", targetNamespace = "pers.liam.countManager.MyService", className = "team.bug.chat.dao.AddUser")
+    @ResponseWrapper(localName = "addUserResponse", targetNamespace = "pers.liam.countManager.MyService", className = "team.bug.chat.dao.AddUserResponse")
     @Action(input = "pers.liam.countManager.MyService/MyServiceImplService/addUserRequest", output = "pers.liam.countManager.MyService/MyServiceImplService/addUserResponse")
     public int addUser(
         @WebParam(name = "arg0", targetNamespace = "")
@@ -53,8 +53,8 @@ public interface MyServiceImplService {
      */
     @WebMethod
     @WebResult(targetNamespace = "")
-    @RequestWrapper(localName = "modifyUserInfo", targetNamespace = "pers.liam.countManager.MyService", className = "team.bug.chat.web.ModifyUserInfo")
-    @ResponseWrapper(localName = "modifyUserInfoResponse", targetNamespace = "pers.liam.countManager.MyService", className = "team.bug.chat.web.ModifyUserInfoResponse")
+    @RequestWrapper(localName = "modifyUserInfo", targetNamespace = "pers.liam.countManager.MyService", className = "team.bug.chat.dao.ModifyUserInfo")
+    @ResponseWrapper(localName = "modifyUserInfoResponse", targetNamespace = "pers.liam.countManager.MyService", className = "team.bug.chat.dao.ModifyUserInfoResponse")
     @Action(input = "pers.liam.countManager.MyService/MyServiceImplService/modifyUserInfoRequest", output = "pers.liam.countManager.MyService/MyServiceImplService/modifyUserInfoResponse")
     public boolean modifyUserInfo();
 
@@ -66,8 +66,8 @@ public interface MyServiceImplService {
      */
     @WebMethod
     @WebResult(targetNamespace = "")
-    @RequestWrapper(localName = "getNickname", targetNamespace = "pers.liam.countManager.MyService", className = "team.bug.chat.web.GetNickname")
-    @ResponseWrapper(localName = "getNicknameResponse", targetNamespace = "pers.liam.countManager.MyService", className = "team.bug.chat.web.GetNicknameResponse")
+    @RequestWrapper(localName = "getNickname", targetNamespace = "pers.liam.countManager.MyService", className = "team.bug.chat.dao.GetNickname")
+    @ResponseWrapper(localName = "getNicknameResponse", targetNamespace = "pers.liam.countManager.MyService", className = "team.bug.chat.dao.GetNicknameResponse")
     @Action(input = "pers.liam.countManager.MyService/MyServiceImplService/getNicknameRequest", output = "pers.liam.countManager.MyService/MyServiceImplService/getNicknameResponse")
     public String getNickname(
         @WebParam(name = "arg0", targetNamespace = "")
@@ -81,8 +81,8 @@ public interface MyServiceImplService {
      */
     @WebMethod
     @WebResult(targetNamespace = "")
-    @RequestWrapper(localName = "changeUserInfo", targetNamespace = "pers.liam.countManager.MyService", className = "team.bug.chat.web.ChangeUserInfo")
-    @ResponseWrapper(localName = "changeUserInfoResponse", targetNamespace = "pers.liam.countManager.MyService", className = "team.bug.chat.web.ChangeUserInfoResponse")
+    @RequestWrapper(localName = "changeUserInfo", targetNamespace = "pers.liam.countManager.MyService", className = "team.bug.chat.dao.ChangeUserInfo")
+    @ResponseWrapper(localName = "changeUserInfoResponse", targetNamespace = "pers.liam.countManager.MyService", className = "team.bug.chat.dao.ChangeUserInfoResponse")
     @Action(input = "pers.liam.countManager.MyService/MyServiceImplService/changeUserInfoRequest", output = "pers.liam.countManager.MyService/MyServiceImplService/changeUserInfoResponse")
     public int changeUserInfo(
         @WebParam(name = "arg0", targetNamespace = "")
@@ -97,8 +97,8 @@ public interface MyServiceImplService {
      */
     @WebMethod
     @WebResult(targetNamespace = "")
-    @RequestWrapper(localName = "verifyUserInfo", targetNamespace = "pers.liam.countManager.MyService", className = "team.bug.chat.web.VerifyUserInfo")
-    @ResponseWrapper(localName = "verifyUserInfoResponse", targetNamespace = "pers.liam.countManager.MyService", className = "team.bug.chat.web.VerifyUserInfoResponse")
+    @RequestWrapper(localName = "verifyUserInfo", targetNamespace = "pers.liam.countManager.MyService", className = "team.bug.chat.dao.VerifyUserInfo")
+    @ResponseWrapper(localName = "verifyUserInfoResponse", targetNamespace = "pers.liam.countManager.MyService", className = "team.bug.chat.dao.VerifyUserInfoResponse")
     @Action(input = "pers.liam.countManager.MyService/MyServiceImplService/verifyUserInfoRequest", output = "pers.liam.countManager.MyService/MyServiceImplService/verifyUserInfoResponse")
     public int verifyUserInfo(
         @WebParam(name = "arg0", targetNamespace = "")
@@ -115,8 +115,8 @@ public interface MyServiceImplService {
      */
     @WebMethod
     @WebResult(targetNamespace = "")
-    @RequestWrapper(localName = "setIP", targetNamespace = "pers.liam.countManager.MyService", className = "team.bug.chat.web.SetIP")
-    @ResponseWrapper(localName = "setIPResponse", targetNamespace = "pers.liam.countManager.MyService", className = "team.bug.chat.web.SetIPResponse")
+    @RequestWrapper(localName = "setIP", targetNamespace = "pers.liam.countManager.MyService", className = "team.bug.chat.dao.SetIP")
+    @ResponseWrapper(localName = "setIPResponse", targetNamespace = "pers.liam.countManager.MyService", className = "team.bug.chat.dao.SetIPResponse")
     @Action(input = "pers.liam.countManager.MyService/MyServiceImplService/setIPRequest", output = "pers.liam.countManager.MyService/MyServiceImplService/setIPResponse")
     public int setIP(
         @WebParam(name = "arg0", targetNamespace = "")
@@ -132,8 +132,8 @@ public interface MyServiceImplService {
      */
     @WebMethod
     @WebResult(targetNamespace = "")
-    @RequestWrapper(localName = "getIP", targetNamespace = "pers.liam.countManager.MyService", className = "team.bug.chat.web.GetIP")
-    @ResponseWrapper(localName = "getIPResponse", targetNamespace = "pers.liam.countManager.MyService", className = "team.bug.chat.web.GetIPResponse")
+    @RequestWrapper(localName = "getIP", targetNamespace = "pers.liam.countManager.MyService", className = "team.bug.chat.dao.GetIP")
+    @ResponseWrapper(localName = "getIPResponse", targetNamespace = "pers.liam.countManager.MyService", className = "team.bug.chat.dao.GetIPResponse")
     @Action(input = "pers.liam.countManager.MyService/MyServiceImplService/getIPRequest", output = "pers.liam.countManager.MyService/MyServiceImplService/getIPResponse")
     public String getIP(
         @WebParam(name = "arg0", targetNamespace = "")
@@ -143,12 +143,12 @@ public interface MyServiceImplService {
      * 
      * @param arg0
      * @return
-     *     returns java.util.List<team.bug.chat.web.Friend>
+     *     returns java.util.List<team.bug.chat.dao.Friend>
      */
     @WebMethod
     @WebResult(targetNamespace = "")
-    @RequestWrapper(localName = "getFriendList", targetNamespace = "pers.liam.countManager.MyService", className = "team.bug.chat.web.GetFriendList")
-    @ResponseWrapper(localName = "getFriendListResponse", targetNamespace = "pers.liam.countManager.MyService", className = "team.bug.chat.web.GetFriendListResponse")
+    @RequestWrapper(localName = "getFriendList", targetNamespace = "pers.liam.countManager.MyService", className = "team.bug.chat.dao.GetFriendList")
+    @ResponseWrapper(localName = "getFriendListResponse", targetNamespace = "pers.liam.countManager.MyService", className = "team.bug.chat.dao.GetFriendListResponse")
     @Action(input = "pers.liam.countManager.MyService/MyServiceImplService/getFriendListRequest", output = "pers.liam.countManager.MyService/MyServiceImplService/getFriendListResponse")
     public List<Friend> getFriendList(
         @WebParam(name = "arg0", targetNamespace = "")
@@ -162,8 +162,8 @@ public interface MyServiceImplService {
      */
     @WebMethod
     @WebResult(targetNamespace = "")
-    @RequestWrapper(localName = "searchFriend", targetNamespace = "pers.liam.countManager.MyService", className = "team.bug.chat.web.SearchFriend")
-    @ResponseWrapper(localName = "searchFriendResponse", targetNamespace = "pers.liam.countManager.MyService", className = "team.bug.chat.web.SearchFriendResponse")
+    @RequestWrapper(localName = "searchFriend", targetNamespace = "pers.liam.countManager.MyService", className = "team.bug.chat.dao.SearchFriend")
+    @ResponseWrapper(localName = "searchFriendResponse", targetNamespace = "pers.liam.countManager.MyService", className = "team.bug.chat.dao.SearchFriendResponse")
     @Action(input = "pers.liam.countManager.MyService/MyServiceImplService/searchFriendRequest", output = "pers.liam.countManager.MyService/MyServiceImplService/searchFriendResponse")
     public List<String> searchFriend(
         @WebParam(name = "arg0", targetNamespace = "")
@@ -178,8 +178,8 @@ public interface MyServiceImplService {
      */
     @WebMethod
     @WebResult(targetNamespace = "")
-    @RequestWrapper(localName = "addFriendMsg", targetNamespace = "pers.liam.countManager.MyService", className = "team.bug.chat.web.AddFriendMsg")
-    @ResponseWrapper(localName = "addFriendMsgResponse", targetNamespace = "pers.liam.countManager.MyService", className = "team.bug.chat.web.AddFriendMsgResponse")
+    @RequestWrapper(localName = "addFriendMsg", targetNamespace = "pers.liam.countManager.MyService", className = "team.bug.chat.dao.AddFriendMsg")
+    @ResponseWrapper(localName = "addFriendMsgResponse", targetNamespace = "pers.liam.countManager.MyService", className = "team.bug.chat.dao.AddFriendMsgResponse")
     @Action(input = "pers.liam.countManager.MyService/MyServiceImplService/addFriendMsgRequest", output = "pers.liam.countManager.MyService/MyServiceImplService/addFriendMsgResponse")
     public int addFriendMsg(
         @WebParam(name = "arg0", targetNamespace = "")
@@ -196,8 +196,8 @@ public interface MyServiceImplService {
      */
     @WebMethod
     @WebResult(targetNamespace = "")
-    @RequestWrapper(localName = "delFriend", targetNamespace = "pers.liam.countManager.MyService", className = "team.bug.chat.web.DelFriend")
-    @ResponseWrapper(localName = "delFriendResponse", targetNamespace = "pers.liam.countManager.MyService", className = "team.bug.chat.web.DelFriendResponse")
+    @RequestWrapper(localName = "delFriend", targetNamespace = "pers.liam.countManager.MyService", className = "team.bug.chat.dao.DelFriend")
+    @ResponseWrapper(localName = "delFriendResponse", targetNamespace = "pers.liam.countManager.MyService", className = "team.bug.chat.dao.DelFriendResponse")
     @Action(input = "pers.liam.countManager.MyService/MyServiceImplService/delFriendRequest", output = "pers.liam.countManager.MyService/MyServiceImplService/delFriendResponse")
     public int delFriend(
         @WebParam(name = "arg0", targetNamespace = "")
@@ -213,8 +213,8 @@ public interface MyServiceImplService {
      */
     @WebMethod
     @WebResult(targetNamespace = "")
-    @RequestWrapper(localName = "checkFriend", targetNamespace = "pers.liam.countManager.MyService", className = "team.bug.chat.web.CheckFriend")
-    @ResponseWrapper(localName = "checkFriendResponse", targetNamespace = "pers.liam.countManager.MyService", className = "team.bug.chat.web.CheckFriendResponse")
+    @RequestWrapper(localName = "checkFriend", targetNamespace = "pers.liam.countManager.MyService", className = "team.bug.chat.dao.CheckFriend")
+    @ResponseWrapper(localName = "checkFriendResponse", targetNamespace = "pers.liam.countManager.MyService", className = "team.bug.chat.dao.CheckFriendResponse")
     @Action(input = "pers.liam.countManager.MyService/MyServiceImplService/checkFriendRequest", output = "pers.liam.countManager.MyService/MyServiceImplService/checkFriendResponse")
     public List<String> checkFriend(
         @WebParam(name = "arg0", targetNamespace = "")
@@ -229,8 +229,8 @@ public interface MyServiceImplService {
      */
     @WebMethod
     @WebResult(targetNamespace = "")
-    @RequestWrapper(localName = "addFriend", targetNamespace = "pers.liam.countManager.MyService", className = "team.bug.chat.web.AddFriend")
-    @ResponseWrapper(localName = "addFriendResponse", targetNamespace = "pers.liam.countManager.MyService", className = "team.bug.chat.web.AddFriendResponse")
+    @RequestWrapper(localName = "addFriend", targetNamespace = "pers.liam.countManager.MyService", className = "team.bug.chat.dao.AddFriend")
+    @ResponseWrapper(localName = "addFriendResponse", targetNamespace = "pers.liam.countManager.MyService", className = "team.bug.chat.dao.AddFriendResponse")
     @Action(input = "pers.liam.countManager.MyService/MyServiceImplService/addFriendRequest", output = "pers.liam.countManager.MyService/MyServiceImplService/addFriendResponse")
     public int addFriend(
         @WebParam(name = "arg0", targetNamespace = "")

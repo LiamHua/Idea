@@ -64,8 +64,6 @@ public class MyServiceImpl implements MyService {
     @Override
     public int verify_userInfo(String username, String password) {    //返回值  0-服务器异常  1-该用户不存在  2-密码错误  3-登录成功
         String db_password;
-        System.out.println(username);
-        System.out.println(password);
         Connection conn = JDBCUtil.get_conn();
         String sql_select = "SELECT Susername,Spassword FROM AccountManager.Account WHERE Susername=?";
         try {

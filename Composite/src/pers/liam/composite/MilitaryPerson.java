@@ -1,4 +1,13 @@
 package pers.liam.composite;
 
-public class MilitaryPersion {
+import java.util.Iterator;
+
+public interface MilitaryPerson {
+    public void add(MilitaryPerson person);
+    public void remove(MilitaryPerson person);
+    public MilitaryPerson getChild(int index);
+    public Iterator<MilitaryPerson> getAllChildren();
+    public boolean isLeaf();
+    public double getSalary();
+    public void setSalary(double Salary);
 }

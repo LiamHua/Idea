@@ -1,5 +1,5 @@
 
-package team.bug.chat.web;
+package team.bug.chat.dao;
 
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;

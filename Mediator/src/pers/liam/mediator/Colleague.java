@@ -1,13 +1,12 @@
 package pers.liam.mediator;
 
-public abstract interface Colleague {
+public interface Colleague {
 
-	public abstract void giveMessage(String mess[]);
+	public void giveMess(String[] mess);
 
-	public abstract void receiveMess(String mess);
+	public void receiveMess(String mess);
 
-	public abstract void setName(String name);
+	public void setName(String name);
 
-	public abstract String getName();
-
+	public String getName();
 }

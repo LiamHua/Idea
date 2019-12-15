@@ -2,11 +2,217 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="MyWeb:war" />
+      <artifact name="MyWeb" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="34ed665d-9eaf-41a8-aad0-8d28133042bb" name="Default Changelist" comment="" />
+    <list default="true" id="34ed665d-9eaf-41a8-aad0-8d28133042bb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../ChatRoom/.idea/$PRODUCT_WORKSPACE_FILE$" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatRoom/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatRoom/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatRoom/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatRoom/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatRoom/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatRoom/ChatRoom.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatRoom/src/pers/liam/ChatRoom/Test/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatRoom/src/pers/liam/ChatRoom/Test/PingIpThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatRoom/src/pers/liam/ChatRoom/Test/Server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatRoom/src/pers/liam/ChatRoom/Test/chat.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatRoom/src/pers/liam/ChatRoom/Test/panl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatRoom/src/pers/liam/ChatRoom/Test/test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChessBorder/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChessBorder/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CourceWeb/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CourceWeb/.idea/artifacts/CourseWeb.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CourceWeb/.idea/dictionaries/liam.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CourceWeb/.idea/libraries/JAX_WS_Glassfish___JAX_WS_2_2_RI___Metro_1_X___JWSDP_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CourceWeb/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CourceWeb/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CourceWeb/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CourceWeb/CourceWeb.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CourceWeb/src/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CourceWeb/src/pers/liam/DB/JDBCUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CourceWeb/src/pers/liam/countManager/.idea/$PRODUCT_WORKSPACE_FILE$" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CourceWeb/src/pers/liam/countManager/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CourceWeb/src/pers/liam/countManager/.idea/artifacts/unnamed.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CourceWeb/src/pers/liam/countManager/.idea/countManager.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CourceWeb/src/pers/liam/countManager/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CourceWeb/src/pers/liam/countManager/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CourceWeb/src/pers/liam/countManager/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CourceWeb/src/pers/liam/countManager/MyService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CourceWeb/src/pers/liam/countManager/MyServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CourceWeb/src/pers/liam/countManager/MyServicePublish.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CourceWeb/web/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CourceWeb/web/WEB-INF/sun-jaxws.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CourceWeb/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Course/.idea/$PRODUCT_WORKSPACE_FILE$" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Course/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Course/.idea/artifacts/MyWeb.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Course/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Course/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Course/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Course/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Course/Course.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Course/src/team/t/course/control/AddCourse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Course/src/team/t/course/control/AdminLogin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Course/src/team/t/course/control/Login.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Course/src/team/t/course/control/SignUp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Course/src/team/t/course/control/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Course/src/team/t/course/view/AddCourse.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Course/src/team/t/course/view/AdminLogin.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Course/src/team/t/course/view/Login.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Course/src/team/t/course/view/SignUp.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Course/src/team/t/course/view/Student.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/MyWeb.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/liam.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/MyWeb/pers/liam/countManager/.idea/countManager.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pers/liam/countManager/.idea/$PRODUCT_WORKSPACE_FILE$" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pers/liam/countManager/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pers/liam/countManager/.idea/artifacts/unnamed.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pers/liam/countManager/.idea/countManager.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pers/liam/countManager/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pers/liam/countManager/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pers/liam/countManager/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyWebClient/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOD-culculator/OOD-culculator.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOD-culculator/src/pers/liam/culculator/Add.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOD-culculator/src/pers/liam/culculator/AddFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOD-culculator/src/pers/liam/culculator/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOD-culculator/src/pers/liam/culculator/InterfaceOperatorFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOD-culculator/src/pers/liam/culculator/Operator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOD-culculator/src/pers/liam/culculator/operator.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOD_work_01_culculater/.idea/dictionaries/liam.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../QQQ/QQQ.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Reflect/Reflect.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Reflect/src/pers/liam/reflect/Simple.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Reflect/src/pers/liam/reflect/Test1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Reflect/src/pers/liam/reflect/Test2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CountManager/.idea/$PRODUCT_WORKSPACE_FILE$" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CountManager/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CountManager/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CountManager/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CountManager/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CountManager/CountManager.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CountManager/out/production/CountManager/db.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CountManager/out/production/CountManager/pers/liam/DB/JDBCUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CountManager/out/production/CountManager/pers/liam/countManager/MyServices.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CountManager/out/production/CountManager/pers/liam/countManager/MyServicesImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CountManager/out/production/CountManager/pers/liam/countManager/MyServicesPublish.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CountManager/src/db.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CountManager/src/pers/liam/DB/JDBCUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CountManager/src/pers/liam/countManager/MyServices.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CountManager/src/pers/liam/countManager/MyServicesImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CountManager/src/pers/liam/countManager/MyServicesPublish.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/MyWeb_war.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/mariadb_java_client_2_4_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/mariadb_java_client_2_4_4.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyWeb.iml" beforeDir="false" afterPath="$PROJECT_DIR$/MyWeb.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/MyWeb_war/MyWeb_war.war" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/MyWeb_war/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/MyWeb_war_exploded/WEB-INF/classes/db.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/MyWeb_war_exploded/WEB-INF/classes/pers/liam/DB/JDBCUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/MyWeb_war_exploded/WEB-INF/classes/pers/liam/countManager/MyService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/MyWeb_war_exploded/WEB-INF/classes/pers/liam/countManager/MyServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/MyWeb_war_exploded/WEB-INF/classes/pers/liam/countManager/MyServicePublish.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/MyWeb_war_exploded/WEB-INF/lib/axis.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/MyWeb_war_exploded/WEB-INF/lib/commons-discovery-0.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/MyWeb_war_exploded/WEB-INF/lib/commons-logging-1.0.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/MyWeb_war_exploded/WEB-INF/lib/jaxrpc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/MyWeb_war_exploded/WEB-INF/lib/log4j-1.2.8.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/MyWeb_war_exploded/WEB-INF/lib/mariadb-java-client-2.4.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/MyWeb_war_exploded/WEB-INF/lib/org.osgi.core-6.0.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/MyWeb_war_exploded/WEB-INF/lib/saaj.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/MyWeb_war_exploded/WEB-INF/lib/wsdl4j-1.5.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/MyWeb_war_exploded/WEB-INF/server-config.wsdd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/MyWeb_war_exploded/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/MyWeb_war_exploded/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MyWeb.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyWeb.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MyWeb/db.properties" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyWeb/db.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MyWeb/pers/liam/countManager/MyService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyWeb/pers/liam/countManager/MyService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MyWeb/pers/liam/countManager/MyServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyWeb/pers/liam/countManager/MyServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/db.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/db.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pers/liam/countManager/MyService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pers/liam/countManager/MyService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pers/liam/countManager/MyServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pers/liam/countManager/MyServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyWebClient/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MyWebClient/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OOD_work_01_culculater/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../OOD_work_01_culculater/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OOD_work_01_culculater/out/production/OOD_work_01_culculater/pers/liam/calculater/Calculate.class" beforeDir="false" afterPath="$PROJECT_DIR$/../OOD_work_01_culculater/out/production/OOD_work_01_culculater/pers/liam/calculater/Calculate.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OOD_work_01_culculater/out/production/OOD_work_01_culculater/pers/liam/calculater/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../OOD_work_01_culculater/out/production/OOD_work_01_culculater/pers/liam/calculater/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OOD_work_01_culculater/out/production/OOD_work_01_culculater/pers/liam/calculater/Operater.class" beforeDir="false" afterPath="$PROJECT_DIR$/../OOD_work_01_culculater/out/production/OOD_work_01_culculater/pers/liam/calculater/Operater.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OOD_work_01_culculater/out/production/OOD_work_01_culculater/pers/liam/calculater/Store.class" beforeDir="false" afterPath="$PROJECT_DIR$/../OOD_work_01_culculater/out/production/OOD_work_01_culculater/pers/liam/calculater/Store.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OOD_work_01_culculater/src/pers/liam/calculater/Calculate.java" beforeDir="false" afterPath="$PROJECT_DIR$/../OOD_work_01_culculater/src/pers/liam/calculater/Calculate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OOD_work_01_culculater/src/pers/liam/calculater/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../OOD_work_01_culculater/src/pers/liam/calculater/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OOD_work_01_culculater/src/pers/liam/calculater/Operater.java" beforeDir="false" afterPath="$PROJECT_DIR$/../OOD_work_01_culculater/src/pers/liam/calculater/Operater.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OOD_work_01_culculater/src/pers/liam/calculater/Store.java" beforeDir="false" afterPath="$PROJECT_DIR$/../OOD_work_01_culculater/src/pers/liam/calculater/Store.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web/.idea/$PRODUCT_WORKSPACE_FILE$" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web/.idea/artifacts/Web_war_exploded.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web/.idea/libraries/JAX_WS_Apache_Axis.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web/.idea/libraries/mariadb_java_client_2_4_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web/Web.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web/lib/axis.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web/lib/commons-discovery-0.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web/lib/commons-logging-1.0.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web/lib/jaxrpc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web/lib/log4j-1.2.8.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web/lib/saaj.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web/lib/wsdl4j-1.5.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web/out/artifacts/Web_war_exploded/WEB-INF/classes/META-INF/Web.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web/out/artifacts/Web_war_exploded/WEB-INF/classes/example/HelloWorld.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web/out/artifacts/Web_war_exploded/WEB-INF/classes/example/HelloWorld.wsdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web/out/artifacts/Web_war_exploded/WEB-INF/classes/example/JDBC.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web/out/artifacts/Web_war_exploded/WEB-INF/lib/axis.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web/out/artifacts/Web_war_exploded/WEB-INF/lib/commons-discovery-0.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web/out/artifacts/Web_war_exploded/WEB-INF/lib/commons-logging-1.0.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web/out/artifacts/Web_war_exploded/WEB-INF/lib/jaxrpc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web/out/artifacts/Web_war_exploded/WEB-INF/lib/log4j-1.2.8.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web/out/artifacts/Web_war_exploded/WEB-INF/lib/mariadb-java-client-2.4.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web/out/artifacts/Web_war_exploded/WEB-INF/lib/saaj.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web/out/artifacts/Web_war_exploded/WEB-INF/lib/wsdl4j-1.5.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web/out/artifacts/Web_war_exploded/WEB-INF/server-config.wsdd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web/out/artifacts/Web_war_exploded/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web/out/artifacts/Web_war_exploded/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web/out/production/Web/example/HelloWorld.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web/out/production/Web/example/HelloWorld.wsdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web/out/production/Web/example/JDBC.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web/src/example/HelloWorld.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web/src/example/HelloWorld.wsdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web/src/example/JDBC.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web/web/WEB-INF/server-config.wsdd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web/web/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web/web/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebClient/.idea/$PRODUCT_WORKSPACE_FILE$" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebClient/.idea/libraries/JAX_WS_Apache_Axis.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebClient/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebClient/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebClient/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebClient/WebClient.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebClient/lib/axis.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebClient/lib/commons-discovery-0.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebClient/lib/commons-logging-1.0.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebClient/lib/jaxrpc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebClient/lib/log4j-1.2.8.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebClient/lib/saaj.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebClient/lib/wsdl4j-1.5.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebClient/out/production/WebClient/client/HelloWorld1.wsdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebClient/out/production/WebClient/client/HelloWorldService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebClient/out/production/WebClient/client/HelloWorldServiceLocator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebClient/out/production/WebClient/client/HelloWorldServiceTestCase.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebClient/out/production/WebClient/client/HelloWorldSoapBindingStub.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebClient/out/production/WebClient/client/HelloWorld_PortType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebClient/out/production/WebClient/client/liam.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebClient/src/WS/service.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebClient/src/client/HelloWorld1.wsdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebClient/src/client/HelloWorldService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebClient/src/client/HelloWorldServiceLocator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebClient/src/client/HelloWorldServiceTestCase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebClient/src/client/HelloWorldSoapBindingStub.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebClient/src/client/HelloWorld_PortType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebClient/src/client/liam.java" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,25 +233,30 @@
     <expand />
     <select />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1Rgyo1zKeLrK8CGAYYP1MjSLr28" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mariadb" />
     <property name="GenerateAntBuildDialog.backupFiles" value="true" />
     <property name="GenerateAntBuildDialog.enableUiFormCompile" value="true" />
     <property name="GenerateAntBuildDialog.forceTargetJdk" value="true" />
     <property name="GenerateAntBuildDialog.outputFileNameProperty" value="myweb" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/mariadb-java-client-2.4.4.jar!/" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="project.structure.side.proportion" value="0.26551723" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
@@ -69,7 +280,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Tomcat Server.Tomcat 8.5.46">
     <configuration name="MyServicePublish" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="pers.liam.countManager.MyServicePublish" />
       <module name="MyWeb" />
@@ -83,6 +294,73 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Tomcat 8.5.46" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.46" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="1.8 (2)" nameIsGenerated="true">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment />
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_MyWeb" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="37419" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.MyServicePublish" />
+      <item itemvalue="Tomcat Server.Tomcat 8.5.46" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.MyServicePublish" />
@@ -106,10 +384,27 @@
       <workItem from="1570446162941" duration="330000" />
       <workItem from="1570446518590" duration="18111000" />
       <workItem from="1570805913019" duration="1239000" />
+      <workItem from="1573477963297" duration="3704000" />
+      <workItem from="1573541867288" duration="2122000" />
+      <workItem from="1573643338401" duration="1705000" />
+      <workItem from="1573718615456" duration="9253000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

@@ -5,7 +5,7 @@ public class Operater {
         return k+i;
     }
 
-    public static double sub(double k,double i){
+    /*public static double sub(double k,double i){
         return  k-i;
     }
 
@@ -15,5 +15,5 @@ public class Operater {
 
     public static double div(double k,double i){
         return  k/i;
-    }
+    }*/
 }

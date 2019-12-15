@@ -1,16 +1,18 @@
 package team.bug.chat.Info;
 
-import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
 
+/**
+ * @author liam
+ */
 public class recordMsg {
     static ArrayList<String> userList = new ArrayList();
-    //static ObservableList<Friend> chatObj = FXCollections.observableArrayList();  //记录已生成的聊天对象
-    //static ObservableList<String> msg = FXCollections.observableArrayList();  //保存消息记录
+    /*static ObservableList<Friend> chatObj = FXCollections.observableArrayList();  //记录已生成的聊天对象*/
+    /*static ObservableList<String> msg = FXCollections.observableArrayList();  //保存消息记录*/
     static Map<Friend, ObservableList<String>> chatMap = new HashMap<>();
 
     public static boolean isExist(Friend friend){

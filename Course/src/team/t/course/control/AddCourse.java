@@ -1,4 +1,4 @@
-package team.t.course;
+package team.t.course.control;
 
 public class AddCourse {
 }

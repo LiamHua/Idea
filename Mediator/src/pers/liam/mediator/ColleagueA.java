@@ -2,46 +2,30 @@ package pers.liam.mediator;
 
 public class ColleagueA implements Colleague {
 
-	private ConcreteMediator mediator;
+    private ConcreteMediator mediator;
 
-	private String name;
+    private String name;
 
-	private ColleagueB colleagueB;
+    ColleagueA(ConcreteMediator mediator) {
+        this.mediator = mediator;
+        mediator.registerColleagueA(this);
+    }
 
-	ColleagueA(ConcreteMediator mediator) {
+    public void giveMess(String[] mess) {
+        mediator.deliverMess(this, mess);
+    }
 
-	}
+    public void receiveMess(String mess) {
+        System.out.println(name + "收到的信息：");
+        System.out.println("\t" + mess);
+    }
 
+    public void setName(String name) {
+        this.name = name;
+    }
 
-	/**
-	 * @see Colleague#giveMessage(String)
-	 */
-	public void giveMessage(String mess[]) {
-
-	}
-
-
-	/**
-	 * @see Colleague#receiveMess(String)
-	 */
-	public void receiveMess(String mess) {
-
-	}
-
-
-	/**
-	 * @see Colleague#setName(String)
-	 */
-	public void setName(String name) {
-
-	}
-
-
-	/**
-	 * @see Colleague#getName()
-	 */
-	public String getName() {
-		return null;
-	}
+    public String getName() {
+        return name;
+    }
 
 }

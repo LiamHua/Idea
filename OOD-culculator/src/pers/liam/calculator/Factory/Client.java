@@ -1,21 +1,15 @@
-package pers.liam.calculator;
+package pers.liam.calculator.Factory;
 
-import java.io.DataOutput;
-import java.io.FileNotFoundException;
 import java.io.FileReader;
-import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Properties;
-import java.util.Scanner;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public class Client {
 
-    private String oper;
-    private double firstNumber;
-    private String ope = "";
-    private double secondNumber;
+    private String oper;      //符号名 ，如Add
+    private String ope = "";  //符号，如 +
     public  String str;
 
     public double calculator() throws Exception {
@@ -38,7 +32,7 @@ public class Client {
         pps.load(new FileReader("src/operator.properties"));
         oper = pps.getProperty(ope);
         System.out.println(oper);
-        InterfaceOperatorFactory op = (InterfaceOperatorFactory) Class.forName("pers.liam.calculator." + oper + "Factory").newInstance();
+        InterfaceOperatorFactory op = (InterfaceOperatorFactory) Class.forName("pers.liam.calculator.Factory." + oper + "Factory").newInstance();
         Operator operatorFactory = op.createOperatorFactory();
         operatorFactory.setFirstNumber(Double.parseDouble(list.get(0).toString()));
         operatorFactory.setSecondNumber(Double.parseDouble(list.get(2).toString()));

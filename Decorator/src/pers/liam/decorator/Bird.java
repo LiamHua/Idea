@@ -1,4 +1,5 @@
 package pers.liam.decorator;
 
-public class Bird {
+public abstract class Bird {
+    public abstract int fly();
 }

@@ -1,12 +1,13 @@
-package per.liam.chatroom.test;
+package test;
 
 /**
  * @author liam
  */
 public class sta {
-    static String str = "nihao";
-
-    public void  pr(){
-        System.out.println(str);
+    public static void main(String[] args) {
+        te te = new te();
+        Thread thread = new Thread(te);
+        thread.start();
+        te.setMsg("nihao");
     }
 }

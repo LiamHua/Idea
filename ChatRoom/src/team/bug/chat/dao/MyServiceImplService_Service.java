@@ -1,5 +1,5 @@
 
-package team.bug.chat.web;
+package team.bug.chat.dao;
 
 import java.net.MalformedURLException;
 import java.net.URL;
@@ -30,7 +30,7 @@ public class MyServiceImplService_Service
         URL url = null;
         WebServiceException e = null;
         try {
-            url = new URL("http://localhost:8060/MyService?wsdl");
+            url = new URL("http://192.168.43.75:8060/MyService?wsdl");
         } catch (MalformedURLException ex) {
             e = new WebServiceException(ex);
         }

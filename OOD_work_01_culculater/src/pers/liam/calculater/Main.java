@@ -7,7 +7,6 @@ public class Main {
         while (true){
             System.out.println("计算器开始运行，输入 = 结束：");
             ArrayList list = Store.setList();
-            System.out.println(list);
             double result = Calculate.calculate(list);
             System.out.println(result);
         }

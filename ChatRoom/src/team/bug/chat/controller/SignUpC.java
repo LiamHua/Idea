@@ -10,7 +10,10 @@ import team.bug.chat.model.Sign;
 import javax.xml.ws.WebServiceException;
 import java.io.IOException;
 
-public class SignUp {
+/**
+ * @author liam
+ */
+public class SignUpC {
 
     @FXML
     private TextField nickname;
@@ -28,17 +31,17 @@ public class SignUp {
         try {
             int regReturn = sign.signUp(nickname.getText(),username_reg.getText(), password_reg.getText());
             if (regReturn == 1){
-                alertDialog.ErrorInformationDialog("该用户已存在！");
+                alertDialog.errorInformationDialog("该用户已存在！");
             }else if (regReturn == 2){
-                alertDialog.CorrectInformationDialog("注册成功!");
+                alertDialog.correctInformationDialog("注册成功!");
                 StageManage stageManage = new StageManage();
-                stageManage.createnewstage("Login.fxml","登录");
-                stageManage.closecurrentstage(bt_signup);
+                stageManage.createNewStage("Login.fxml","登录");
+                stageManage.closeCurrentStage(bt_signup);
             } else if (regReturn == 3){
-                alertDialog.ErrorInformationDialog("服务器异常!");
+                alertDialog.errorInformationDialog("服务器异常!");
             }
         }catch (WebServiceException e){
-            alertDialog.ErrorInformationDialog("无法连接服务器，请联系管理员！");
+            alertDialog.errorInformationDialog("无法连接服务器，请联系管理员！");
         }
     }
 }

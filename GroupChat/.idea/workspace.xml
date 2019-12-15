@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1d28ba42-ae8a-4a98-ac9c-173286679289" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1UQm5qcILrlvJMSV4k9vEhnsljD" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
+  </component>
+  <component name="RunManager" selected="Application.Client">
+    <configuration name="Client" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Model.Client" />
+      <module name="GroupChat" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClientTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Model.ClientTest" />
+      <module name="GroupChat" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Server" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Model.Server" />
+      <module name="GroupChat" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Client" />
+      <item itemvalue="Application.Server" />
+      <item itemvalue="Application.ClientTest" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Client" />
+        <item itemvalue="Application.Server" />
+        <item itemvalue="Application.ClientTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1d28ba42-ae8a-4a98-ac9c-173286679289" name="Default Changelist" comment="" />
+      <created>1575297012381</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1575297012381</updated>
+      <workItem from="1575297015202" duration="7056000" />
+      <workItem from="1575348024301" duration="4068000" />
+      <workItem from="1575387868569" duration="3200000" />
+      <workItem from="1575461867183" duration="2297000" />
+      <workItem from="1575532239558" duration="4222000" />
+      <workItem from="1575564341439" duration="751000" />
+      <workItem from="1575634439528" duration="2378000" />
+      <workItem from="1575647785088" duration="5402000" />
+      <workItem from="1575706820249" duration="105000" />
+      <workItem from="1575724234143" duration="3697000" />
+      <workItem from="1575863540319" duration="12973000" />
+      <workItem from="1575884334928" duration="1104000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1876" height="256" key="GridCell.Tab.0.bottom" timestamp="1575885449734">
+      <screen x="0" y="0" width="1920" height="1046" />
+    </state>
+    <state width="1876" height="256" key="GridCell.Tab.0.bottom/0.0.1920.1046@0.0.1920.1046" timestamp="1575885449734" />
+    <state width="1876" height="256" key="GridCell.Tab.0.center" timestamp="1575885449733">
+      <screen x="0" y="0" width="1920" height="1046" />
+    </state>
+    <state width="1876" height="256" key="GridCell.Tab.0.center/0.0.1920.1046@0.0.1920.1046" timestamp="1575885449733" />
+    <state width="1876" height="256" key="GridCell.Tab.0.left" timestamp="1575885449732">
+      <screen x="0" y="0" width="1920" height="1046" />
+    </state>
+    <state width="1876" height="256" key="GridCell.Tab.0.left/0.0.1920.1046@0.0.1920.1046" timestamp="1575885449732" />
+    <state width="1876" height="256" key="GridCell.Tab.0.right" timestamp="1575885449733">
+      <screen x="0" y="0" width="1920" height="1046" />
+    </state>
+    <state width="1876" height="256" key="GridCell.Tab.0.right/0.0.1920.1046@0.0.1920.1046" timestamp="1575885449733" />
+  </component>
+</project>

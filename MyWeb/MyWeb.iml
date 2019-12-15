@@ -1,3 +1,4 @@
+
 <?xml version="1.0" encoding="UTF-8"?>
 <module type="JAVA_MODULE" version="4">
   <component name="FacetManager">
@@ -29,7 +30,7 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="JAX-WS-Apache Axis" level="project" />
-    <orderEntry type="library" name="mariadb-java-client-2.4.4" level="project" />
     <orderEntry type="library" name="org.osgi.core-6.0.0" level="project" />
+    <orderEntry type="library" name="mariadb-java-client-2.4.4" level="project" />
   </component>
 </module>

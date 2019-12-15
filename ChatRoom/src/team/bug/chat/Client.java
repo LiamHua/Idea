@@ -1,18 +1,17 @@
 package team.bug.chat;
 
 import javafx.application.Application;
-import javafx.fxml.FXMLLoader;
-import javafx.scene.Parent;
-import javafx.scene.Scene;
 import javafx.stage.Stage;
+import team.bug.chat.itemUtils.StageManage;
 import java.io.IOException;
 
-public class client extends Application {
+/**
+ * @author liam
+ */
+public class Client extends Application {
+    @Override
     public void start(Stage primaryStage) throws IOException {
-        Parent root = FXMLLoader.load(getClass().getResource("/team/bug/chat/view/Login.fxml"));
-        Scene scene = new Scene(root, 600, 400);
-        primaryStage.setScene(scene);
-        primaryStage.setTitle("Login");
-        primaryStage.show();
+        StageManage stageManage = new StageManage();
+        stageManage.createNewStage("Login.fxml","登录");
     }
 }

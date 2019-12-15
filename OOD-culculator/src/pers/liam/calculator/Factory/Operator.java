@@ -1,4 +1,4 @@
-package pers.liam.calculator;
+package pers.liam.calculator.Factory;
 
 public abstract class Operator {
 
