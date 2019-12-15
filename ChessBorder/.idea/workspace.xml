@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4d2d33f9-57e0-4fc0-9bbd-e202363dcbe2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../ChatRoom/.idea/$PRODUCT_WORKSPACE_FILE$" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatRoom/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatRoom/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatRoom/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatRoom/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatRoom/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatRoom/ChatRoom.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatRoom/src/pers/liam/ChatRoom/Test/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatRoom/src/pers/liam/ChatRoom/Test/PingIpThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatRoom/src/pers/liam/ChatRoom/Test/Server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatRoom/src/pers/liam/ChatRoom/Test/panl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatRoom/src/pers/liam/ChatRoom/Test/test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOD_work_01_culculater/.idea/dictionaries/liam.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Reflect/Reflect.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Reflect/src/pers/liam/reflect/Simple.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Reflect/src/pers/liam/reflect/Test1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Reflect/src/pers/liam/reflect/Test2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OOD_work_01_culculater/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../OOD_work_01_culculater/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OOD_work_01_culculater/out/production/OOD_work_01_culculater/pers/liam/calculater/Calculate.class" beforeDir="false" afterPath="$PROJECT_DIR$/../OOD_work_01_culculater/out/production/OOD_work_01_culculater/pers/liam/calculater/Calculate.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OOD_work_01_culculater/out/production/OOD_work_01_culculater/pers/liam/calculater/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../OOD_work_01_culculater/out/production/OOD_work_01_culculater/pers/liam/calculater/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OOD_work_01_culculater/out/production/OOD_work_01_culculater/pers/liam/calculater/Operater.class" beforeDir="false" afterPath="$PROJECT_DIR$/../OOD_work_01_culculater/out/production/OOD_work_01_culculater/pers/liam/calculater/Operater.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OOD_work_01_culculater/out/production/OOD_work_01_culculater/pers/liam/calculater/Store.class" beforeDir="false" afterPath="$PROJECT_DIR$/../OOD_work_01_culculater/out/production/OOD_work_01_culculater/pers/liam/calculater/Store.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OOD_work_01_culculater/src/pers/liam/calculater/Calculate.java" beforeDir="false" afterPath="$PROJECT_DIR$/../OOD_work_01_culculater/src/pers/liam/calculater/Calculate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OOD_work_01_culculater/src/pers/liam/calculater/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../OOD_work_01_culculater/src/pers/liam/calculater/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OOD_work_01_culculater/src/pers/liam/calculater/Operater.java" beforeDir="false" afterPath="$PROJECT_DIR$/../OOD_work_01_culculater/src/pers/liam/calculater/Operater.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OOD_work_01_culculater/src/pers/liam/calculater/Store.java" beforeDir="false" afterPath="$PROJECT_DIR$/../OOD_work_01_culculater/src/pers/liam/calculater/Store.java" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1T2Zx9IwMgwaiJN9ZSbQRpEfvKr" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4d2d33f9-57e0-4fc0-9bbd-e202363dcbe2" name="Default Changelist" comment="" />
+      <created>1572660394410</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1572660394410</updated>
+      <workItem from="1572660395747" duration="572000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
