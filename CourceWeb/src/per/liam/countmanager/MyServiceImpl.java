@@ -15,7 +15,8 @@ import java.util.ArrayList;
 @WebService(targetNamespace = "pers.liam.countManager.MyService", name = "MyServiceImplService")
 public class MyServiceImpl implements MyService {
     @Override
-    public int addUser(String nickname, String username, String password) {    //返回值  1-该用户已存在  2-注册成功  3-服务器异常
+    //返回值  1-该用户已存在  2-注册成功  3-服务器异常
+    public int addUser(String nickname, String username, String password) {
         int i;
         Connection conn = JDBCUtil.get_conn();
         try {
@@ -83,7 +84,8 @@ public class MyServiceImpl implements MyService {
     }
 
     @Override
-    public int verifyUserInfo(String username, String password) {    //返回值  0-服务器异常  1-该用户不存在  2-密码错误  3-登录成功
+    //返回值  0-服务器异常  1-该用户不存在  2-密码错误  3-登录成功
+    public int verifyUserInfo(String username, String password) {
         String dbPassword;
         Connection conn = JDBCUtil.get_conn();
         String sqlSelect = "SELECT username,password FROM AccountManager.User WHERE username=?";

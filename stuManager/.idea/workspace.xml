@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="MyWeb" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="851a5de1-9b9b-4042-9f4a-672bfe4b2530" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/team/t/course/web/AddFriend.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/team/t/course/web/AddFriend.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/team/t/course/web/AddFriendMsg.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/team/t/course/web/AddFriendMsg.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/team/t/course/web/AddFriendMsgResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/team/t/course/web/AddFriendMsgResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/team/t/course/web/AddFriendResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/team/t/course/web/AddFriendResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/team/t/course/web/ChangeUserInfo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/team/t/course/web/ChangeUserInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/team/t/course/web/ChangeUserInfoResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/team/t/course/web/ChangeUserInfoResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/team/t/course/web/CheckFriend.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/team/t/course/web/CheckFriend.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/team/t/course/web/CheckFriendResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/team/t/course/web/CheckFriendResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/team/t/course/web/DelFriend.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/team/t/course/web/DelFriend.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/team/t/course/web/DelFriendResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/team/t/course/web/DelFriendResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/team/t/course/web/Friend.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/team/t/course/web/Friend.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/team/t/course/web/GetFriendList.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/team/t/course/web/GetFriendList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/team/t/course/web/GetFriendListResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/team/t/course/web/GetFriendListResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/team/t/course/web/GetIP.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/team/t/course/web/GetIP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/team/t/course/web/GetIPResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/team/t/course/web/GetIPResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/team/t/course/web/GetNickname.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/team/t/course/web/GetNickname.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/team/t/course/web/GetNicknameResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/team/t/course/web/GetNicknameResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/team/t/course/web/MyService1.wsdl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/team/t/course/web/SearchFriend.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/team/t/course/web/SearchFriend.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/team/t/course/web/SearchFriendResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/team/t/course/web/SearchFriendResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/team/t/course/web/SetIP.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/team/t/course/web/SetIP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/team/t/course/web/SetIPResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/team/t/course/web/SetIPResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DormitorySystem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../database/StudentSystemDao.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lib/mysql-connector-java-5.1.6-bin.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/indi/wrenn/studentsystem/bean/AnalyzeResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/indi/wrenn/studentsystem/bean/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/indi/wrenn/studentsystem/bean/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/indi/wrenn/studentsystem/dao/JdbcConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/indi/wrenn/studentsystem/dao/JdbcHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/indi/wrenn/studentsystem/dao/ManageHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/indi/wrenn/studentsystem/frame/AddScoreFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/indi/wrenn/studentsystem/frame/AddStudentFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/indi/wrenn/studentsystem/frame/AddStudentScoreFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/indi/wrenn/studentsystem/frame/ConditionsQueryFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/indi/wrenn/studentsystem/frame/ConditionsQueryScoreFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/indi/wrenn/studentsystem/frame/DeleteStudentFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/indi/wrenn/studentsystem/frame/DetailsFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/indi/wrenn/studentsystem/frame/ImagePanel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/indi/wrenn/studentsystem/frame/ModifyFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/indi/wrenn/studentsystem/frame/ModifyStudentFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/indi/wrenn/studentsystem/frame/QueryScoreFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/indi/wrenn/studentsystem/frame/QueryStudentFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/indi/wrenn/studentsystem/frame/QueryStudentScoreFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/indi/wrenn/studentsystem/frame/ScoreAnalyzeFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/indi/wrenn/studentsystem/frame/ScoreAnalyzeOption.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/indi/wrenn/studentsystem/frame/ScoreConditionsQueryFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/indi/wrenn/studentsystem/frame/ScoresRankingFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/indi/wrenn/studentsystem/frame/StudentSystemLoginFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/indi/wrenn/studentsystem/frame/StudentSystemMainFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/indi/wrenn/studentsystem/frame/StudentSystemRegisterFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/indi/wrenn/studentsystem/frame/UpdatePasswordFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/indi/wrenn/studentsystem/frame/UpdateScoreFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/indi/wrenn/studentsystem/frame/UpdateStudentScoreFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/indi/wrenn/studentsystem/model/ScoreAnalyzeModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/indi/wrenn/studentsystem/model/ScoreModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/indi/wrenn/studentsystem/model/StudentModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/indi/wrenn/studentsystem/run/TestLogin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/indi/wrenn/studentsystem/util/CreateSql.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/indi/wrenn/studentsystem/util/Tools.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/indi/wrenn/studentsystem/util/WindowUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.classpath" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.project" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.settings/org.eclipse.wst.common.project.facet.core.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JSpaces.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/DumpStructureOnly.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/DumpStructure_and_Data.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysql-connector-java-5.1.18.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Class/ClassAddFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Class/ClassChange.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Class/ClassManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Cource/CourceAddFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Cource/CourceChange.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Cource/CourceManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Depart/DepartAddFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Depart/DepartChange.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Depart/DepartManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Score/ScoreAddFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Score/ScoreChange.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Score/ScoreManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Student/StudentChange.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Student/StudentInfoAddFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Student/StudentManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/User/UserAddFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/User/UserDelete.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/User/UserPasswordFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/db/dbConn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stuManager/LoginClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stuManager/LoginFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stuManager/MainFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stuManager.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stuManager.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ChatRoom/out/production/ChatRoom/team/bug/chat/controller/ChatC.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ChatRoom/out/production/ChatRoom/team/bug/chat/controller/ChatC.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ChatRoom/out/production/ChatRoom/team/bug/chat/dao/MyServiceImplService_Service.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ChatRoom/out/production/ChatRoom/team/bug/chat/dao/MyServiceImplService_Service.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ChatRoom/out/production/ChatRoom/team/bug/chat/model/FileStream.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ChatRoom/out/production/ChatRoom/team/bug/chat/model/FileStream.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ChatRoom/out/production/ChatRoom/team/bug/chat/model/FriendManage.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ChatRoom/out/production/ChatRoom/team/bug/chat/model/FriendManage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ChatRoom/src/team/bug/chat/dao/MyServiceImplService_Service.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ChatRoom/src/team/bug/chat/dao/MyServiceImplService_Service.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CourceWeb/out/production/CourceWeb/db.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../CourceWeb/out/production/CourceWeb/db.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CourceWeb/out/production/CourceWeb/per/liam/countmanager/MyServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../CourceWeb/out/production/CourceWeb/per/liam/countmanager/MyServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CourceWeb/src/db.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../CourceWeb/src/db.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CourceWeb/src/per/liam/countmanager/MyServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CourceWeb/src/per/liam/countmanager/MyServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Course/META-INF/Course.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Course/team/t/course/control/Login.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Course/team/t/course/control/Login.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Course/team/t/course/control/SignUp.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Course/team/t/course/control/SignUp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Course/team/t/course/web/AddUser.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Course/team/t/course/web/AddUser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Course/team/t/course/web/ModifyUserInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Course/team/t/course/web/ModifyUserInfo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Course/team/t/course/web/ModifyUserInfoResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Course/team/t/course/web/ModifyUserInfoResponse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Course/team/t/course/web/MyServiceImplService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Course/team/t/course/web/MyServiceImplService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Course/team/t/course/web/ObjectFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Course/team/t/course/web/ObjectFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Course/team/t/course/web/VerifyUserInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Course/team/t/course/web/VerifyUserInfo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Course/team/t/course/web/VerifyUserInfoResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Course/team/t/course/web/VerifyUserInfoResponse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/team/t/course/control/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/team/t/course/control/Login.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/team/t/course/control/SignUp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/team/t/course/control/SignUp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/team/t/course/web/AddUser.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/team/t/course/web/AddUser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/team/t/course/web/AddUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/team/t/course/web/AddUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/team/t/course/web/ModifyUserInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/team/t/course/web/ModifyUserInfo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/team/t/course/web/ModifyUserInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/team/t/course/web/ModifyUserInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/team/t/course/web/ModifyUserInfoResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/team/t/course/web/ModifyUserInfoResponse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/team/t/course/web/ModifyUserInfoResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/team/t/course/web/ModifyUserInfoResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/team/t/course/web/MyServiceImplService.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/team/t/course/web/MyServiceImplService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/team/t/course/web/MyServiceImplService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/team/t/course/web/MyServiceImplService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/team/t/course/web/ObjectFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/team/t/course/web/ObjectFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/team/t/course/web/ObjectFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/team/t/course/web/ObjectFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/team/t/course/web/VerifyUserInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/team/t/course/web/VerifyUserInfo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/team/t/course/web/VerifyUserInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/team/t/course/web/VerifyUserInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/team/t/course/web/VerifyUserInfoResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/team/t/course/web/VerifyUserInfoResponse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/team/t/course/web/VerifyUserInfoResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/team/t/course/web/VerifyUserInfoResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyWeb/src/db.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../MyWeb/src/db.properties" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1TMu5lpBQKVQwJrxraJvlrTK7Pz" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.26551723" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/team/t/course/view" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/team/t/course" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Login" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="team.t.course.control.Login" />
+      <module name="Course" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="team.t.course.control.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Login" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="851a5de1-9b9b-4042-9f4a-672bfe4b2530" name="Default Changelist" comment="" />
+      <created>1573282104758</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1573282104758</updated>
+      <workItem from="1573282110324" duration="4832000" />
+      <workItem from="1573287023961" duration="4341000" />
+      <workItem from="1573474501576" duration="9791000" />
+      <workItem from="1573542172164" duration="1683000" />
+      <workItem from="1573639742530" duration="636000" />
+      <workItem from="1573718631626" duration="5838000" />
+      <workItem from="1573866504307" duration="2615000" />
+      <workItem from="1576479612710" duration="7784000" />
+      <workItem from="1576494291185" duration="898000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="494" y="382" width="634" height="278" key="#com.intellij.ws.actions.GenerateJavaFromWsdlAction$1" timestamp="1576479759476">
+      <screen x="0" y="0" width="1920" height="1046" />
+    </state>
+    <state x="494" y="382" width="634" height="278" key="#com.intellij.ws.actions.GenerateJavaFromWsdlAction$1/0.0.1920.1046@0.0.1920.1046" timestamp="1576479759476" />
+    <state x="747" y="281" key="FileChooserDialogImpl" timestamp="1576490375212">
+      <screen x="0" y="0" width="1920" height="1046" />
+    </state>
+    <state x="747" y="281" key="FileChooserDialogImpl/0.0.1920.1046@0.0.1920.1046" timestamp="1576490375212" />
+    <state width="710" height="863" key="GridCell.Tab.0.bottom" timestamp="1576490402279">
+      <screen x="0" y="0" width="1920" height="1046" />
+    </state>
+    <state width="710" height="863" key="GridCell.Tab.0.bottom/0.0.1920.1046@0.0.1920.1046" timestamp="1576490402279" />
+    <state width="710" height="863" key="GridCell.Tab.0.center" timestamp="1576490402277">
+      <screen x="0" y="0" width="1920" height="1046" />
+    </state>
+    <state width="710" height="863" key="GridCell.Tab.0.center/0.0.1920.1046@0.0.1920.1046" timestamp="1576490402277" />
+    <state width="710" height="863" key="GridCell.Tab.0.left" timestamp="1576490402276">
+      <screen x="0" y="0" width="1920" height="1046" />
+    </state>
+    <state width="710" height="863" key="GridCell.Tab.0.left/0.0.1920.1046@0.0.1920.1046" timestamp="1576490402276" />
+    <state width="710" height="863" key="GridCell.Tab.0.right" timestamp="1576490402278">
+      <screen x="0" y="0" width="1920" height="1046" />
+    </state>
+    <state width="710" height="863" key="GridCell.Tab.0.right/0.0.1920.1046@0.0.1920.1046" timestamp="1576490402278" />
+    <state x="468" y="158" key="SettingsEditor" timestamp="1576485967625">
+      <screen x="0" y="0" width="1920" height="1046" />
+    </state>
+    <state x="468" y="158" key="SettingsEditor/0.0.1920.1046@0.0.1920.1046" timestamp="1576485967625" />
+  </component>
+</project>

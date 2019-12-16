@@ -30,7 +30,7 @@ public class MyServiceImplService_Service
         URL url = null;
         WebServiceException e = null;
         try {
-            url = new URL("http://192.168.43.75:8060/MyService?wsdl");
+            url = new URL("http://192.168.31.64:8060/MyService?wsdl");
         } catch (MalformedURLException ex) {
             e = new WebServiceException(ex);
         }
