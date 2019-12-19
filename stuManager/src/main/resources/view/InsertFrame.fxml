@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="596.0" prefWidth="1032.0" xmlns="http://javafx.com/javafx/8.0.231" xmlns:fx="http://javafx.com/fxml/1" fx:controller="per.liam.stumanager.controller.InsertC">
+    <TableView fx:id="insertTable" editable="true" layoutX="66.0" layoutY="67.0" prefHeight="301.0" prefWidth="900.0" tableMenuButtonVisible="true">
+        <columns>
+            <TableColumn fx:id="snoCol" prefWidth="99.0" text="学号" />
+            <TableColumn fx:id="nameCol" prefWidth="83.0" text="姓名" />
+            <TableColumn fx:id="sexCol" prefWidth="43.0" text="性别" />
+            <TableColumn fx:id="telCol" prefWidth="101.0" text="电话" />
+            <TableColumn fx:id="birthdayCol" prefWidth="126.0" text=" 出生年份" />
+            <TableColumn fx:id="addressCol" prefWidth="130.0" text="家庭住址" />
+            <TableColumn fx:id="instituteCol" minWidth="0.0" prefWidth="106.0" text="学院" />
+            <TableColumn fx:id="majorCol" prefWidth="123.0" text="专业" />
+            <TableColumn fx:id="startYearCol" prefWidth="59.0" text="入学年份" />
+        </columns>
+    </TableView>
+   <TextField fx:id="sno" layoutX="66.0" layoutY="376.0" prefHeight="28.0" prefWidth="100.0" />
+    <TextField fx:id="name" layoutX="166.0" layoutY="376.0" prefHeight="28.0" prefWidth="86.0" />
+    <TextField fx:id="sex" layoutX="252.0" layoutY="376.0" prefHeight="28.0" prefWidth="40.0" />
+    <TextField fx:id="tel" layoutX="292.0" layoutY="376.0" prefHeight="28.0" prefWidth="109.0" />
+    <TextField fx:id="birthday" layoutX="401.0" layoutY="376.0" prefHeight="28.0" prefWidth="122.0" />
+    <TextField fx:id="address" layoutX="523.0" layoutY="376.0" prefHeight="28.0" prefWidth="132.0" />
+    <TextField fx:id="institute" layoutX="655.0" layoutY="376.0" prefHeight="28.0" prefWidth="109.0" />
+    <TextField fx:id="major" layoutX="764.0" layoutY="376.0" prefHeight="28.0" prefWidth="122.0" />
+    <TextField fx:id="startYear" layoutX="886.0" layoutY="376.0" prefHeight="28.0" prefWidth="86.0" />
+    <Button layoutX="493.0" layoutY="422.0" mnemonicParsing="false" text="添加" onAction="#onClickAdd"/>
+    <Button layoutX="447.0" layoutY="481.0" mnemonicParsing="false" prefHeight="52.0" prefWidth="154.0" text="确认提交 "
+    onAction="#onClickUpdate">
+        <font>
+            <Font size="20.0" />
+        </font></Button>
+</AnchorPane>
