@@ -3,8 +3,8 @@ package per.liam.stumanager.model;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import per.liam.stumanager.dao.ResultDaoImpl;
-import per.liam.stumanager.utils.Course;
 import per.liam.stumanager.utils.Student;
+
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;

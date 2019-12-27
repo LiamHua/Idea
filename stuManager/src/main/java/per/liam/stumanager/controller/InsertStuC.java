@@ -8,7 +8,6 @@ import javafx.fxml.Initializable;
 import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableView;
 import javafx.scene.control.TextField;
-import javafx.scene.input.MouseEvent;
 import per.liam.stumanager.model.Insert;
 import per.liam.stumanager.utils.Student;
 
@@ -20,16 +19,25 @@ import java.util.ResourceBundle;
  * @author liam
  * @date 19-12-19 上午11:19
  */
-public class InsertC implements Initializable {
-    public TextField sno;
-    public TextField name;
-    public TextField sex;
-    public TextField tel;
-    public TextField birthday;
-    public TextField address;
-    public TextField institute;
-    public TextField major;
-    public TextField startYear;
+public class InsertStuC implements Initializable {
+    @FXML
+    private TextField sno;
+    @FXML
+    private TextField name;
+    @FXML
+    private TextField sex;
+    @FXML
+    private TextField tel;
+    @FXML
+    private TextField birthday;
+    @FXML
+    private TextField address;
+    @FXML
+    private TextField institute;
+    @FXML
+    private TextField major;
+    @FXML
+    private TextField startYear;
     @FXML
     private TableView<Student> insertTable;
     @FXML
@@ -66,6 +74,7 @@ public class InsertC implements Initializable {
         insertTable.setItems(list);
     }
 
+    @FXML
     public void onClickAdd() {
      list.add(new Student(sno.getText(), name.getText(), sex.getText(), tel.getText(), birthday.getText(),
              address.getText(), institute.getText(), major.getText(), startYear.getText()));
@@ -80,9 +89,10 @@ public class InsertC implements Initializable {
      startYear.setText("");
     }
 
+    @FXML
     public void onClickUpdate(ActionEvent actionEvent) {
         Insert in = new Insert();
-        ArrayList<Student> failed = in.insert(list);
+        ArrayList<Student> failed = in.insertStu(list);
         list.clear();
     }
 }

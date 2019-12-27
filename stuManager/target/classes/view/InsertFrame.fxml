@@ -7,7 +7,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="596.0" prefWidth="1032.0" xmlns="http://javafx.com/javafx/8.0.231" xmlns:fx="http://javafx.com/fxml/1" fx:controller="per.liam.stumanager.controller.InsertC">
+<AnchorPane prefHeight="596.0" prefWidth="1032.0" xmlns="http://javafx.com/javafx/8.0.231" xmlns:fx="http://javafx.com/fxml/1" fx:controller="per.liam.stumanager.controller.InsertStuC">
     <TableView fx:id="insertTable" editable="true" layoutX="66.0" layoutY="67.0" prefHeight="301.0" prefWidth="900.0" tableMenuButtonVisible="true">
         <columns>
             <TableColumn fx:id="snoCol" prefWidth="99.0" text="学号" />

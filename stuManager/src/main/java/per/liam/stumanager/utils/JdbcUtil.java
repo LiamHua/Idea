@@ -1,7 +1,6 @@
 package per.liam.stumanager.utils;
 
 import org.springframework.jdbc.datasource.DriverManagerDataSource;
-
 import javax.sql.DataSource;
 
 /**

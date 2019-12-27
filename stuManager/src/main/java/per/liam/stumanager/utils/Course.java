@@ -2,31 +2,21 @@ package per.liam.stumanager.utils;
 
 /**
  * @author liam
- * @date 19-12-26 下午11:05
+ * @date 19-12-27 下午8:27
  */
 public class Course {
-    private String sno;
     private String cno;
     private String name;
-    private String time;
-    private int firstScore;
-    private int secondScore;
+    private String institute;
+    private String teacher;
+    private String tel;
 
-    public Course(String sno, String cno, String name, String time, int firstScore, int secondScore) {
-        this.sno = sno;
+    public Course(String cno, String name, String institute, String teacher, String tel) {
         this.cno = cno;
         this.name = name;
-        this.time = time;
-        this.firstScore = firstScore;
-        this.secondScore = secondScore;
-    }
-
-    public String getSno() {
-        return sno;
-    }
-
-    public void setSno(String sno) {
-        this.sno = sno;
+        this.institute = institute;
+        this.teacher = teacher;
+        this.tel = tel;
     }
 
     public String getCno() {
@@ -45,29 +35,27 @@ public class Course {
         this.name = name;
     }
 
-    public String getTime() {
-        return time;
+    public String getInstitute() {
+        return institute;
     }
 
-    public void setTime(String time) {
-        this.time = time;
+    public void setInstitute(String institute) {
+        this.institute = institute;
     }
 
-    public int getFirstScore() {
-        return firstScore;
+    public String getTeacher() {
+        return teacher;
     }
 
-    public void setFirstScore(int firstScore) {
-        this.firstScore = firstScore;
+    public void setTeacher(String teacher) {
+        this.teacher = teacher;
     }
 
-    public int getSecondScore() {
-        return secondScore;
+    public String getTel() {
+        return tel;
     }
 
-    public void setSecondScore(int secondScore) {
-        this.secondScore = secondScore;
+    public void setTel(String tel) {
+        this.tel = tel;
     }
-
-
 }

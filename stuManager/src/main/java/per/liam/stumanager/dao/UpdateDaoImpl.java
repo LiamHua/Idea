@@ -4,6 +4,7 @@ import javafx.collections.ObservableList;
 import org.springframework.jdbc.core.JdbcTemplate;
 import per.liam.stumanager.model.MainFrameInit;
 import per.liam.stumanager.utils.Course;
+import per.liam.stumanager.utils.Score;
 import per.liam.stumanager.utils.JdbcUtil;
 import per.liam.stumanager.utils.Student;
 
@@ -16,7 +17,7 @@ import java.util.ArrayList;
 public class UpdateDaoImpl implements UpdateDao {
     JdbcTemplate jdbcTemplate = new JdbcTemplate(JdbcUtil.getDataSource());
     @Override
-    public ArrayList<Student> insert(ObservableList<Student> list) {
+    public ArrayList<Student> insertStu(ObservableList<Student> list) {
         ArrayList<Student> failed = new ArrayList<>();
         String sql = "insert into student values(?,?,?,?,?,?,?,?,?)";
         for (Student stu : list){
@@ -43,9 +44,29 @@ public class UpdateDaoImpl implements UpdateDao {
     }
 
     @Override
-    public int changeScore(Course course) {
+    public int changeScore(Score score) {
         String sql = "update score set firstScore=?,secondScore=? where Sno=? and Cno=?";
-        return jdbcTemplate.update(sql,course.getFirstScore(),course.getSecondScore(),course.getSno(),
-                course.getCno());
+        return jdbcTemplate.update(sql, score.getFirstScore(), score.getSecondScore(), score.getSno(),
+                score.getCno());
+    }
+
+    @Override
+    public int changeCourse(Course course) {
+        String sql = "update course set Cname=?,teacher=?,tel=? where Cno=?";
+        return jdbcTemplate.update(sql, course.getName(), course.getTeacher(), course.getTel(), course.getCno());
+    }
+
+    @Override
+    public ArrayList<Course> insertCourse(ObservableList<Course> list) {
+        ArrayList<Course> failed = new ArrayList<>();
+        String sql = "insert into course values(?,?,?,?,?)";
+        for (Course course : list){
+            int update = jdbcTemplate.update(sql,course.getCno(), course.getName(),
+                    MainFrameInit.instituteR.get(course.getInstitute()), course.getTeacher(), course.getTel());
+            if (update != 1){
+                failed.add(course);
+            }
+        }
+        return failed;
     }
 }

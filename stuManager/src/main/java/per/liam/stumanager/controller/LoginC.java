@@ -1,6 +1,7 @@
 package per.liam.stumanager.controller;
 
 import javafx.event.ActionEvent;
+import javafx.fxml.FXML;
 import javafx.scene.control.Button;
 import javafx.scene.control.TextField;
 import per.liam.stumanager.model.Login;
@@ -16,10 +17,14 @@ import java.io.IOException;
  */
 public class LoginC {
 
-    public TextField username;
-    public TextField password;
-    public Button login;
+    @FXML
+    private TextField username;
+    @FXML
+    private TextField password;
+    @FXML
+    private Button login;
 
+    @FXML
     public void onClickLogin() {
         Login login = new Login();
         AlertDialog alertDialog = new AlertDialog();

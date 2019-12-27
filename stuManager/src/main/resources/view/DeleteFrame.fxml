@@ -7,7 +7,7 @@
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.AnchorPane?>
 
-<AnchorPane prefHeight="376.0" prefWidth="961.0" xmlns="http://javafx.com/javafx/8.0.231" xmlns:fx="http://javafx.com/fxml/1" fx:controller="per.liam.stumanager.controller.DeleteC">
+<AnchorPane prefHeight="376.0" prefWidth="961.0" xmlns="http://javafx.com/javafx/8.0.231" xmlns:fx="http://javafx.com/fxml/1" fx:controller="per.liam.stumanager.controller.DeleteStuC">
    <Label layoutX="113.0" layoutY="78.0" text="请输入学号:" />
    <TextField fx:id="sno" layoutX="184.0" layoutY="73.0" />
    <Button layoutX="466.0" layoutY="73.0" mnemonicParsing="false" onAction="#onClickSearch" text="查询" />

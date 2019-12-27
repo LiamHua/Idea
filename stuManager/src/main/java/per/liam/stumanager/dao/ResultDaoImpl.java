@@ -4,7 +4,6 @@ import org.springframework.jdbc.core.JdbcTemplate;
 import per.liam.stumanager.utils.JdbcUtil;
 import per.liam.stumanager.utils.SearchCondition;
 import per.liam.stumanager.utils.Student;
-
 import java.util.List;
 import java.util.Map;
 
@@ -40,8 +39,8 @@ public class ResultDaoImpl implements ResultDao {
 
     @Override
     public List<Map<String, Object>> search(SearchCondition condition) {
-        String sql = "select * from student where Sno like ? and name like ? and sex like ? and instituteId like ? and majorId like ? " +
-                "and start_year like ?";
+        String sql = "select * from student where Sno like ? and name like ? and sex like ? and instituteId like ? and " +
+                "majorId like ? and start_year like ?";
         List<Map<String, Object>> maps = jdbcTemplate.queryForList(sql, condition.getSnoCondition(), condition.getNameCondition(),
                 condition.getSexCondition(), condition.getInstituteCondition(), condition.getMajorCondition(),
                 condition.getYearCondition());
@@ -56,8 +55,15 @@ public class ResultDaoImpl implements ResultDao {
 
     @Override
     public List<Map<String, Object>> getScore(Student student) {
-        String sql = "select score.Cno,Cname,score.time,firstScore,secondScore from score,course where score.Cno = course.Cno and " +
-                "Sno = ?";
+        String sql = "select score.Cno,Cname,score.time,firstScore,secondScore from score,course " +
+                "where score.Cno = course.Cno and Sno = ?";
         return jdbcTemplate.queryForList(sql, student.getSno());
+    }
+
+    @Override
+    public List<Map<String, Object>> getCourse() {
+        String sql = "select Cno,Cname,instituteName,teacher,tel from course,institute " +
+                "where course.instituteId=institute.instituteId";
+        return jdbcTemplate.queryForList(sql);
     }
 }

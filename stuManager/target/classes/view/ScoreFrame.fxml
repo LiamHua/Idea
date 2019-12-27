@@ -10,12 +10,12 @@
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.AnchorPane?>
 
-<AnchorPane prefHeight="578.0" prefWidth="722.0" xmlns="http://javafx.com/javafx/8.0.231" xmlns:fx="http://javafx.com/fxml/1" fx:controller="per.liam.stumanager.controller.ScoreC">
+<AnchorPane prefHeight="578.0" prefWidth="722.0" xmlns="http://javafx.com/javafx/8.0.231" xmlns:fx="http://javafx.com/fxml/1" fx:controller="per.liam.stumanager.controller.ScoreManageC">
     <MenuBar layoutX="610.0">
-        <Menu mnemonicParsing="false" text="菜单 ">
+        <!--<Menu mnemonicParsing="false" text="菜单 ">
             <MenuItem mnemonicParsing="false" onAction="#insertStu" text="添加信息" />
             <MenuItem mnemonicParsing="false" onAction="#delStu" text="删除信息" />
-        </Menu>
+        </Menu>-->
         <Menu mnemonicParsing="false" text="帮助">
             <MenuItem mnemonicParsing="false" text="关于" />
         </Menu>
@@ -36,10 +36,10 @@
     <Label layoutX="399.0" layoutY="362.0" text="课程名称" />
     <Label layoutX="527.0" layoutY="362.0" text="成绩" />
     <Label layoutX="609.0" layoutY="362.0" text="重修成绩" />
-    <TextField fx:id="serial" layoutX="25.0" layoutY="400.0" prefHeight="28.0" prefWidth="65.0" />
-    <TextField fx:id="time" layoutX="91.0" layoutY="400.0" prefHeight="28.0" prefWidth="150.0" />
-    <TextField fx:id="cno" layoutX="241.0" layoutY="400.0" prefHeight="28.0" prefWidth="120.0" />
-    <TextField fx:id="courseName" layoutX="361.0" layoutY="400.0" prefHeight="28.0" prefWidth="131.0" />
+    <TextField fx:id="serial" editable="false" layoutX="25.0" layoutY="400.0" prefHeight="28.0" prefWidth="65.0" />
+    <TextField fx:id="time" editable="false" layoutX="91.0" layoutY="400.0" prefHeight="28.0" prefWidth="150.0" />
+    <TextField fx:id="cno" editable="false" layoutX="241.0" layoutY="400.0" prefHeight="28.0" prefWidth="120.0" />
+    <TextField fx:id="courseName" editable="false" layoutX="361.0" layoutY="400.0" prefHeight="28.0" prefWidth="131.0" />
     <TextField fx:id="firstScore" layoutX="492.0" layoutY="400.0" prefHeight="28.0" prefWidth="95.0" />
     <TextField fx:id="secondScore" layoutX="587.0" layoutY="400.0" prefHeight="28.0" prefWidth="95.0" />
    <Button layoutX="308.0" layoutY="472.0" mnemonicParsing="false" onAction="#onClickModify" prefHeight="48.0" prefWidth="104.0" text="修改  " />

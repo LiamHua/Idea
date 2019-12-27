@@ -2,6 +2,7 @@ package per.liam.stumanager.model;
 
 import per.liam.stumanager.dao.UpdateDaoImpl;
 import per.liam.stumanager.utils.Course;
+import per.liam.stumanager.utils.Score;
 import per.liam.stumanager.utils.Student;
 
 /**
@@ -14,7 +15,11 @@ public class Change {
         return updateDao.changeStu(student);
     }
 
-    public int changeScoreInfo(Course course){
-        return updateDao.changeScore(course);
+    public int changeScoreInfo(Score score){
+        return updateDao.changeScore(score);
+    }
+
+    public int changeCourseInfo(Course course){
+        return updateDao.changeCourse(course);
     }
 }

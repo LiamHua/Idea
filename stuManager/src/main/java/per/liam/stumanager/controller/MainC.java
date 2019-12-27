@@ -83,6 +83,7 @@ public class MainC implements Initializable {
         startYearChoice.setItems(mainFrameInit.getStartYearItems());
     }
 
+    @FXML
     public void onClickSearch() {
         SearchCondition searchCondition = new SearchCondition(sno.getText(), name.getText(),
                 sexChoice.getSelectionModel().getSelectedItem(),
@@ -93,21 +94,25 @@ public class MainC implements Initializable {
         search.search("sift");
     }
 
+    @FXML
     public void delStu() throws IOException {
         StageManage stageManage = new StageManage();
         stageManage.createNewStage("DeleteFrame.fxml", "删除");
     }
 
+    @FXML
     public void insertStu() throws IOException {
         StageManage stageManage = new StageManage();
         stageManage.createNewStage("InsertFrame.fxml", "添加");
     }
 
+    @FXML
     public void onClickChange() throws IOException {
         StageManage stageManage = new StageManage();
         stageManage.createNewStage("ChangeFrame.fxml", "修改");
     }
 
+    @FXML
     public void onClickScoreManage() throws IOException {
         System.out.println(stuTable.getSelectionModel().getSelectedItem().getSno());
         /*StageManage stageManage = new StageManage();
@@ -122,5 +127,10 @@ public class MainC implements Initializable {
             StageManage stageManage = new StageManage();
             stageManage.createNewStage("ScoreFrame.fxml","成绩管理");
         }
+    }
+
+    public void onClickCourseManage() throws IOException {
+        StageManage stageManage = new StageManage();
+        stageManage.createNewStage("CourseManage.fxml","课程管理");
     }
 }

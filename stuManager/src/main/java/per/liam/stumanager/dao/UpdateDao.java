@@ -1,8 +1,8 @@
 package per.liam.stumanager.dao;
 
 import javafx.collections.ObservableList;
-import org.omg.CORBA.PUBLIC_MEMBER;
 import per.liam.stumanager.utils.Course;
+import per.liam.stumanager.utils.Score;
 import per.liam.stumanager.utils.Student;
 
 import java.util.ArrayList;
@@ -16,9 +16,9 @@ public interface UpdateDao {
     /**
      * 添加学生信息
      * @param list 学生信息列表
-     * @return 改变量
+     * @return 添加失败的学生
      */
-    public ArrayList<Student> insert(ObservableList<Student> list);
+    public ArrayList<Student> insertStu(ObservableList<Student> list);
 
     /**
      * 删除学生信息
@@ -36,8 +36,22 @@ public interface UpdateDao {
 
     /**
      * 修改学生成绩信息
-     * @param course 学生学习的课程及成绩信息
+     * @param score 学生成绩信息
      * @return 改变量
      */
-    public int changeScore(Course course);
+    public int changeScore(Score score);
+
+    /**
+     * 修改课程信息
+     * @param course 课程信息
+     * @return 改变量
+     */
+    public int changeCourse(Course course);
+
+    /**
+     * 添加课程信息
+     * @param list 准备添加的课程
+     * @return 添加失败的课程
+     */
+    public ArrayList<Course> insertCourse(ObservableList<Course> list);
 }

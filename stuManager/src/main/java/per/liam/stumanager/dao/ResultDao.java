@@ -49,4 +49,10 @@ public interface ResultDao {
      * @return 课程成绩
      */
     public List<Map<String, Object>> getScore(Student student);
+
+    /**
+     * 获取课程信息
+     * @return 课程数据
+     */
+    public List<Map<String,Object>> getCourse();
 }
