@@ -13,8 +13,8 @@ public class JdbcUtil {
         DriverManagerDataSource dataSource = new DriverManagerDataSource();
         dataSource.setDriverClassName("org.mariadb.jdbc.Driver");
         dataSource.setUrl("jdbc:mariadb://47.98.245.249:3306/stuManager");
-        dataSource.setUsername("liam");
-        dataSource.setPassword("321098");
+        dataSource.setUsername("test");
+        dataSource.setPassword("test");
         return dataSource;
     }
 }
