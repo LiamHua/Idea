@@ -4,6 +4,7 @@ import javafx.beans.property.SimpleStringProperty;
 import javafx.beans.property.StringProperty;
 
 /**
+ * 学生实体
  * @author liam
  * @date 19-12-18 下午5:49
  */

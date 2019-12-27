@@ -26,22 +26,22 @@ public class SearchCondition {
         }else {
             this.nameCondition = nameCondition;
         }
-        if (sexCondition == null){
+        if (sexCondition == null || "全部".equals(sexCondition)){
             this.sexCondition = "%";
         }else {
             this.sexCondition = sexCondition;
         }
-        if (instituteCondition == null){
+        if (instituteCondition == null || "全部".equals(instituteCondition)){
             this.instituteCondition = "%";
         }else {
             this.instituteCondition = instituteCondition;
         }
-        if (majorCondition == null){
+        if (majorCondition == null || "全部".equals(majorCondition)){
             this.majorCondition = "%";
         }else {
             this.majorCondition = majorCondition;
         }
-        if (yearCondition == null){
+        if (yearCondition == null || "全部".equals(yearCondition)){
             this.yearCondition = "%";
         }else {
             this.yearCondition = yearCondition;

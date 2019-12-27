@@ -1,6 +1,8 @@
 package per.liam.stumanager.dao;
 
 import javafx.collections.ObservableList;
+import org.omg.CORBA.PUBLIC_MEMBER;
+import per.liam.stumanager.utils.Course;
 import per.liam.stumanager.utils.Student;
 
 import java.util.ArrayList;
@@ -30,5 +32,12 @@ public interface UpdateDao {
      * @param stu 学生
      * @return 改变量
      */
-    public int change(Student stu);
+    public int changeStu(Student stu);
+
+    /**
+     * 修改学生成绩信息
+     * @param course 学生学习的课程及成绩信息
+     * @return 改变量
+     */
+    public int changeScore(Course course);
 }

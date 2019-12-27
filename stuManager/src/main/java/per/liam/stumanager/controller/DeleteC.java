@@ -1,15 +1,12 @@
 package per.liam.stumanager.controller;
 
-import javafx.collections.FXCollections;
-import javafx.collections.ObservableList;
-import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableView;
 import javafx.scene.control.TextField;
 import per.liam.stumanager.model.Delete;
-import per.liam.stumanager.model.Init;
+import per.liam.stumanager.model.MainFrameInit;
 import per.liam.stumanager.model.Search;
 import per.liam.stumanager.utils.AlertDialog;
 import per.liam.stumanager.utils.SearchCondition;
@@ -58,7 +55,7 @@ public class DeleteC implements Initializable {
         instituteCol.setCellValueFactory(cellDate->cellDate.getValue().instituteProperty());
         majorCol.setCellValueFactory(cellDate->cellDate.getValue().majorProperty());
         startYearCol.setCellValueFactory(cellDate->cellDate.getValue().startYearProperty());
-        stu.setItems(Init.delStu);
+        stu.setItems(MainFrameInit.delStu);
     }
 
 

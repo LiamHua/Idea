@@ -7,8 +7,8 @@ import per.liam.stumanager.utils.SearchCondition;
 import per.liam.stumanager.utils.Student;
 import java.util.List;
 import java.util.Map;
-import static per.liam.stumanager.model.Init.delStu;
-import static per.liam.stumanager.model.Init.students;
+import static per.liam.stumanager.model.MainFrameInit.delStu;
+import static per.liam.stumanager.model.MainFrameInit.students;
 
 /**
  * @author liam
@@ -36,7 +36,8 @@ public class Search {
         for (Map<String, Object> i : result) {
             list.add(new Student(i.get("Sno").toString(), i.get("name").toString(), i.get("sex").toString(),
                     i.get("tel").toString(), i.get("birthday").toString(), i.get("address").toString(),
-                    i.get("institute").toString(), i.get("major").toString(), i.get("start_year").toString()));
+                    MainFrameInit.institute.get(i.get("instituteId").toString()), MainFrameInit.major.get(i.get("majorId").toString()),
+                    i.get("start_year").toString()));
         }
     }
 
@@ -45,7 +46,8 @@ public class Search {
         for (Map<String, Object> i : result) {
             return new Student(i.get("Sno").toString(), i.get("name").toString(), i.get("sex").toString(),
                     i.get("tel").toString(), i.get("birthday").toString(), i.get("address").toString(),
-                    i.get("institute").toString(), i.get("major").toString(), i.get("start_year").toString());
+                    MainFrameInit.institute.get(i.get("instituteId").toString()), MainFrameInit.major.get(i.get("majorId").toString()),
+                    i.get("start_year").toString());
         }
         return null;
     }

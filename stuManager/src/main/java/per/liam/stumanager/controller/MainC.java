@@ -1,17 +1,15 @@
 package per.liam.stumanager.controller;
 
-import javafx.collections.FXCollections;
-import javafx.collections.ObservableList;
-import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.control.*;
-import per.liam.stumanager.model.Init;
+import javafx.scene.input.MouseEvent;
+import per.liam.stumanager.model.MainFrameInit;
 import per.liam.stumanager.model.Search;
 import per.liam.stumanager.utils.SearchCondition;
 import per.liam.stumanager.utils.StageManage;
 import per.liam.stumanager.utils.Student;
-
+import per.liam.stumanager.utils.TemporaryStu;
 import java.io.IOException;
 import java.net.URL;
 import java.util.ResourceBundle;
@@ -72,23 +70,24 @@ public class MainC implements Initializable {
         instituteCol.setCellValueFactory(cellDate -> cellDate.getValue().instituteProperty());
         majorCol.setCellValueFactory(cellDate -> cellDate.getValue().majorProperty());
         startYearCol.setCellValueFactory(cellDate -> cellDate.getValue().startYearProperty());
-        Init init = new Init();
-        init.setStudents();
-        init.setSexItems();
-        init.setInstituteItems();
-        init.setMajorItems();
-        init.setStartYearItems();
-        stuTable.setItems(Init.students);
-        sexChoice.setItems(init.getSexItems());
-        instituteChoice.setItems(init.getInstituteItems());
-        majorChoice.setItems(init.getMajorItems());
-        startYearChoice.setItems(init.getStartYearItems());
+        MainFrameInit mainFrameInit = new MainFrameInit();
+        mainFrameInit.setStudents();
+        mainFrameInit.setSexItems();
+        mainFrameInit.setInstituteItems();
+        mainFrameInit.setMajorItems();
+        mainFrameInit.setStartYearItems();
+        stuTable.setItems(MainFrameInit.students);
+        sexChoice.setItems(mainFrameInit.getSexItems());
+        instituteChoice.setItems(mainFrameInit.getInstituteItems());
+        majorChoice.setItems(mainFrameInit.getMajorItems());
+        startYearChoice.setItems(mainFrameInit.getStartYearItems());
     }
 
     public void onClickSearch() {
         SearchCondition searchCondition = new SearchCondition(sno.getText(), name.getText(),
-                sexChoice.getSelectionModel().getSelectedItem(), instituteChoice.getSelectionModel().getSelectedItem(),
-                majorChoice.getSelectionModel().getSelectedItem(),
+                sexChoice.getSelectionModel().getSelectedItem(),
+                MainFrameInit.instituteR.get(instituteChoice.getSelectionModel().getSelectedItem()),
+                MainFrameInit.majorR.get(majorChoice.getSelectionModel().getSelectedItem()),
                 startYearChoice.getSelectionModel().getSelectedItem());
         Search search = new Search(searchCondition);
         search.search("sift");
@@ -107,5 +106,21 @@ public class MainC implements Initializable {
     public void onClickChange() throws IOException {
         StageManage stageManage = new StageManage();
         stageManage.createNewStage("ChangeFrame.fxml", "修改");
+    }
+
+    public void onClickScoreManage() throws IOException {
+        System.out.println(stuTable.getSelectionModel().getSelectedItem().getSno());
+        /*StageManage stageManage = new StageManage();
+        stageManage.createNewStage("ScoreFrame.fxml","学生成绩管理");*/
+    }
+
+
+    public void onClickRow(MouseEvent mouseEvent) throws IOException {
+        int count = 2;
+        if (mouseEvent.getClickCount() == count) {
+            TemporaryStu.setStudent(stuTable.getSelectionModel().getSelectedItem());
+            StageManage stageManage = new StageManage();
+            stageManage.createNewStage("ScoreFrame.fxml","成绩管理");
+        }
     }
 }

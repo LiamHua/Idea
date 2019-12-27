@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="hello" class="per.liam.pojo.HelloSpring">
+        <property name="str" value="你好！"/>
+    </bean>
+
+    <bean id="huazai" class="per.liam.pojo.UserDaoImpl"/>
+
+    <bean id="long" class="per.liam.pojo.UserDaoImplTwo"/>
+
+    <bean id="service" class="per.liam.pojo.serice.ServiceImpl" >
+        <property name="userDao" ref="long"/>
+    </bean>
+</beans>

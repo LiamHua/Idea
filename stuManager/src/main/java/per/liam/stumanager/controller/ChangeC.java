@@ -1,9 +1,10 @@
 package per.liam.stumanager.controller;
 
-import javafx.event.ActionEvent;
 import javafx.scene.control.TextField;
 import per.liam.stumanager.model.Change;
+import per.liam.stumanager.model.MainFrameInit;
 import per.liam.stumanager.model.Search;
+import per.liam.stumanager.utils.AlertDialog;
 import per.liam.stumanager.utils.SearchCondition;
 import per.liam.stumanager.utils.Student;
 
@@ -40,8 +41,12 @@ public class ChangeC {
 
     public void onClickChange() {
         Student student = new Student(sno.getText(), name.getText(), sex.getText(), tel.getText(), birthday.getText(), address.getText(),
-                institute.getText(), major.getText(), startYear.getText());
+                MainFrameInit.instituteR.get(institute.getText()), MainFrameInit.majorR.get(major.getText()), startYear.getText());
         Change change = new Change();
-        int i = change.change(student);
+        if (change.changeStuInfo(student) == 1){
+            new AlertDialog().correctInformationDialog("修改成功！");
+        }else {
+            new AlertDialog().errorInformationDialog("修改失败！");
+        }
     }
 }

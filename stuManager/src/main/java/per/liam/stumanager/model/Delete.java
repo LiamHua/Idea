@@ -3,7 +3,7 @@ package per.liam.stumanager.model;
 import per.liam.stumanager.dao.ResultDao;
 import per.liam.stumanager.dao.ResultDaoImpl;
 
-import static per.liam.stumanager.model.Init.delStu;
+import static per.liam.stumanager.model.MainFrameInit.delStu;
 
 /**
  * @author liam

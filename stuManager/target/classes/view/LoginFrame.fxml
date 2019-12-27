@@ -5,13 +5,10 @@
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.AnchorPane?>
 
-
-<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.231"
-            xmlns:fx="http://javafx.com/fxml/1" fx:controller="per.liam.stumanager.controller.LoginC">
-    <Button fx:id="login" layoutX="177.0" layoutY="284.0" mnemonicParsing="false" onAction="#onClickLogin" prefHeight="48.0"
-            prefWidth="163.0" text="Login"/>
-    <Label layoutX="95.0" layoutY="115.0" text="username"/>
-    <Label layoutX="95.0" layoutY="200.0" text="password"/>
-    <TextField fx:id="username" layoutX="171.0" layoutY="110.0"/>
-    <TextField fx:id="password" layoutX="171.0" layoutY="195.0"/>
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.231" xmlns:fx="http://javafx.com/fxml/1" fx:controller="per.liam.stumanager.controller.LoginC">
+    <Button fx:id="login" blendMode="MULTIPLY" layoutX="177.0" layoutY="284.0" mnemonicParsing="false" onAction="#onClickLogin" prefHeight="48.0" prefWidth="163.0" style="-fx-background-color: SKYBLUE;" text="Login" />
+    <Label layoutX="95.0" layoutY="115.0" text="username" />
+    <Label layoutX="95.0" layoutY="200.0" text="password" />
+    <TextField fx:id="username" layoutX="171.0" layoutY="110.0" />
+    <TextField fx:id="password" layoutX="171.0" layoutY="195.0" />
 </AnchorPane>
