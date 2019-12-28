@@ -5,10 +5,13 @@ import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
+import javafx.scene.control.ComboBox;
 import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableView;
 import javafx.scene.control.TextField;
 import per.liam.stumanager.model.Insert;
+import per.liam.stumanager.model.MainFrameInit;
+import per.liam.stumanager.utils.AlertDialog;
 import per.liam.stumanager.utils.Student;
 
 import java.net.URL;
@@ -25,7 +28,7 @@ public class InsertStuC implements Initializable {
     @FXML
     private TextField name;
     @FXML
-    private TextField sex;
+    private ComboBox<String> sexChoice;
     @FXML
     private TextField tel;
     @FXML
@@ -33,66 +36,77 @@ public class InsertStuC implements Initializable {
     @FXML
     private TextField address;
     @FXML
-    private TextField institute;
+    private ComboBox<String> instituteChoice;
     @FXML
-    private TextField major;
+    private ComboBox<String> majorChoice;
     @FXML
-    private TextField startYear;
+    private ComboBox<String> startYearChoice;
     @FXML
     private TableView<Student> insertTable;
     @FXML
-    private TableColumn<Student,String> snoCol;
+    private TableColumn<Student, String> snoCol;
     @FXML
-    private TableColumn<Student,String> nameCol;
+    private TableColumn<Student, String> nameCol;
     @FXML
-    private TableColumn<Student,String> sexCol;
+    private TableColumn<Student, String> sexCol;
     @FXML
-    private TableColumn<Student,String> telCol;
+    private TableColumn<Student, String> telCol;
     @FXML
-    private TableColumn<Student,String> birthdayCol;
+    private TableColumn<Student, String> birthdayCol;
     @FXML
-    private TableColumn<Student,String> addressCol;
+    private TableColumn<Student, String> addressCol;
     @FXML
-    private TableColumn<Student,String> instituteCol;
+    private TableColumn<Student, String> instituteCol;
     @FXML
-    private TableColumn<Student,String> majorCol;
+    private TableColumn<Student, String> majorCol;
     @FXML
-    private TableColumn<Student,String> startYearCol;
+    private TableColumn<Student, String> startYearCol;
 
     ObservableList<Student> list = FXCollections.observableArrayList();
+
     @Override
     public void initialize(URL location, ResourceBundle resources) {
-        snoCol.setCellValueFactory(cellDate->cellDate.getValue().snoProperty());
-        nameCol.setCellValueFactory(cellDate->cellDate.getValue().nameProperty());
-        sexCol.setCellValueFactory(cellDate->cellDate.getValue().sexProperty());
-        telCol.setCellValueFactory(cellDate->cellDate.getValue().telProperty());
-        birthdayCol.setCellValueFactory(cellDate->cellDate.getValue().birthdayProperty());
-        addressCol.setCellValueFactory(cellDate->cellDate.getValue().addressProperty());
-        instituteCol.setCellValueFactory(cellDate->cellDate.getValue().instituteProperty());
-        majorCol.setCellValueFactory(cellDate->cellDate.getValue().majorProperty());
-        startYearCol.setCellValueFactory(cellDate->cellDate.getValue().startYearProperty());
+        snoCol.setCellValueFactory(cellDate -> cellDate.getValue().snoProperty());
+        nameCol.setCellValueFactory(cellDate -> cellDate.getValue().nameProperty());
+        sexCol.setCellValueFactory(cellDate -> cellDate.getValue().sexProperty());
+        telCol.setCellValueFactory(cellDate -> cellDate.getValue().telProperty());
+        birthdayCol.setCellValueFactory(cellDate -> cellDate.getValue().birthdayProperty());
+        addressCol.setCellValueFactory(cellDate -> cellDate.getValue().addressProperty());
+        instituteCol.setCellValueFactory(cellDate -> cellDate.getValue().instituteProperty());
+        majorCol.setCellValueFactory(cellDate -> cellDate.getValue().majorProperty());
+        startYearCol.setCellValueFactory(cellDate -> cellDate.getValue().startYearProperty());
         insertTable.setItems(list);
+        sexChoice.setItems(MainFrameInit.sexItems);
+        instituteChoice.setItems(MainFrameInit.instituteItems);
+        majorChoice.setItems(MainFrameInit.majorItems);
+        startYearChoice.setItems(MainFrameInit.startYearItems);
     }
 
     @FXML
     public void onClickAdd() {
-     list.add(new Student(sno.getText(), name.getText(), sex.getText(), tel.getText(), birthday.getText(),
-             address.getText(), institute.getText(), major.getText(), startYear.getText()));
-     sno.setText("");
-     name.setText("");
-     sex.setText("");
-     tel.setText("");
-     birthday.setText("");
-     address.setText("");
-     institute.setText("");
-     major.setText("");
-     startYear.setText("");
+        list.add(new Student(sno.getText(), name.getText(), sexChoice.getSelectionModel().getSelectedItem(), tel.getText(),
+                birthday.getText(), address.getText(), instituteChoice.getSelectionModel().getSelectedItem(),
+                majorChoice.getSelectionModel().getSelectedItem(), startYearChoice.getSelectionModel().getSelectedItem()));
+        sno.setText("");
+        name.setText("");
+        sexChoice.setSelectionModel(null);
+        tel.setText("");
+        birthday.setText("");
+        address.setText("");
+        instituteChoice.setSelectionModel(null);
+        majorChoice.setSelectionModel(null);
+        startYearChoice.setSelectionModel(null);
     }
 
     @FXML
     public void onClickUpdate(ActionEvent actionEvent) {
         Insert in = new Insert();
         ArrayList<Student> failed = in.insertStu(list);
+        if (failed.isEmpty()){
+            new AlertDialog().correctInformationDialog("添加成功！");
+        }else {
+            new AlertDialog().errorInformationDialog(failed.toString() + "添加失败！");
+        }
         list.clear();
     }
 }

@@ -4,7 +4,6 @@ import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import per.liam.stumanager.dao.ResultDaoImpl;
 import per.liam.stumanager.utils.Student;
-
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -21,12 +20,10 @@ public class MainFrameInit {
     public static Map<String,String> major = new HashMap<>();
     public static Map<String,String> instituteR = new HashMap<>();
     public static Map<String,String> majorR = new HashMap<>();
-    private ObservableList<String> sexItems = FXCollections.observableArrayList();
-    private ObservableList<String> instituteItems = FXCollections.observableArrayList();
-    private ObservableList<String> majorItems = FXCollections.observableArrayList();
-    private ObservableList<String> startYearItems = FXCollections.observableArrayList();
-
-
+    public static ObservableList<String> sexItems = FXCollections.observableArrayList();
+    public static ObservableList<String> instituteItems = FXCollections.observableArrayList();
+    public static ObservableList<String> majorItems = FXCollections.observableArrayList();
+    public static ObservableList<String> startYearItems = FXCollections.observableArrayList();
 
     public MainFrameInit(){
         ResultDaoImpl resultDao = new ResultDaoImpl();

@@ -12,7 +12,6 @@
 <?import javafx.scene.layout.AnchorPane?>
 
 <AnchorPane prefHeight="648.0" prefWidth="1009.0" xmlns="http://javafx.com/javafx/8.0.231" xmlns:fx="http://javafx.com/fxml/1" fx:controller="per.liam.stumanager.controller.MainC">
-    <Button layoutX="38.0" layoutY="15.0" mnemonicParsing="false" onAction="#onClickScoreManage" text="学生成绩管理" />
     <MenuBar layoutX="879.0" layoutY="14.0">
         <Menu fx:id="menu" mnemonicParsing="false" text="菜单">
             <MenuItem mnemonicParsing="false" onAction="#insertStu" text="添加信息" />

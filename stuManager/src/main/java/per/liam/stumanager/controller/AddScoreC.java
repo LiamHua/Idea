@@ -5,12 +5,15 @@ import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
+import javafx.scene.control.ComboBox;
 import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableView;
 import javafx.scene.control.TextField;
 import javafx.scene.control.cell.PropertyValueFactory;
 import per.liam.stumanager.model.CourseFrameInit;
 import per.liam.stumanager.model.Insert;
+import per.liam.stumanager.model.MainFrameInit;
+import per.liam.stumanager.utils.AlertDialog;
 import per.liam.stumanager.utils.Course;
 import per.liam.stumanager.utils.Student;
 
@@ -23,7 +26,10 @@ import java.util.ResourceBundle;
  * @date 19-12-27 下午8:03
  */
 public class AddScoreC implements Initializable {
-    public TableView<Course> insertTable;
+    @FXML
+    private TableView<Course> insertTable;
+    @FXML
+    private ComboBox<String> instituteChoice;
     @FXML
     private TableColumn<Course, String> cnoCol;
     @FXML
@@ -55,13 +61,15 @@ public class AddScoreC implements Initializable {
         teacherCol.setCellValueFactory(new PropertyValueFactory<>("teacher"));
         telCol.setCellValueFactory(new PropertyValueFactory<>("tel"));
         insertTable.setItems(list);
+        instituteChoice.setItems(MainFrameInit.instituteItems);
     }
 
     public void onClickAdd(ActionEvent actionEvent) {
-        list.add(new Course(cno.getText(), name.getText(), institute.getText(), teacher.getText(), tel.getText()));
+        list.add(new Course(cno.getText(), name.getText(), instituteChoice.getSelectionModel().getSelectedItem(),
+                teacher.getText(), tel.getText()));
         cno.setText("");
         name.setText("");
-        institute.setText("");
+        instituteChoice.setSelectionModel(null);
         teacher.setText("");
         tel.setText("");
     }
@@ -69,6 +77,11 @@ public class AddScoreC implements Initializable {
     public void onClickUpdate(ActionEvent actionEvent) {
         Insert in = new Insert();
         ArrayList<Course> failed = in.insertCourse(list);
+        if (failed.isEmpty()){
+            new AlertDialog().correctInformationDialog("添加成功！");
+        }else {
+            new AlertDialog().errorInformationDialog(failed.toString() + "添加失败！");
+        }
         list.clear();
     }
 }

@@ -20,6 +20,8 @@ import java.util.ResourceBundle;
  */
 public class MainC implements Initializable {
     @FXML
+    private Button search;
+    @FXML
     private Menu menu;
     @FXML
     private Menu help;
@@ -35,8 +37,6 @@ public class MainC implements Initializable {
     private ComboBox<String> majorChoice;
     @FXML
     private ComboBox<String> startYearChoice;
-    @FXML
-    private Button search;
     @FXML
     private TableView<Student> stuTable;
     @FXML
